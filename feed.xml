@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Your awesome title</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 01 Dec 2015 12:21:59 -0500</pubDate>
+    <lastBuildDate>Tue, 01 Dec 2015 12:21:59 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 01 Dec 2015 07:29:36 -0500</pubDate>
+        <link>http://yourdomain.com/blog/jekyll/welcome-to-jekyll</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/jekyll/welcome-to-jekyll</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>jekyll</category>
+        
+      </item>
+    
+      <item>
+        <title>Introducing Windows 10 for IT Professionals</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Introducing Windows 10 for IT Professionals, Preview Edition
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        Free ebook: Introducing Windows 10 for IT Professionals, Preview Edition(ISBN 9780735696969), by Ed Bott.
+      &lt;/p&gt;
+      &lt;p&gt;More details &amp; download information available at: &lt;a href=&quot;http://goo.gl/ozp6Vg&quot; target=&quot;_blank&quot;&gt;http://goo.gl/ozp6Vg&lt;/a&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/Introducing-Windows-10-for-IT-Professionals</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/Introducing-Windows-10-for-IT-Professionals</guid>
+        
+        <category>Windows10</category>
+        
+        <category>eBook</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Windows 8.1 Succinctly</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Windows 8.1 Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        Harness the power of Windows 8.1 to develop apps across Microsoft platforms. Author Matteo Pagani will guide you from a conceptual understanding of Windows 8.1 to developing apps for both desktop and mobile environments. In &lt;i&gt;Windows 8.1 Succinctly&lt;/i&gt;, the first of two comprehensive volumes, you will gain the skills you need to master development on this versatile operating system.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Introduction&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;The Essential Concepts: Visual Studio, XAML, and C#&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Creating the User Interface: The Controls&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;The Core Concepts: Resolutions, Navigation, and App Life Cycle&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Working with Files: Storage, Database, and Settings&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 22 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/Windows-8-1-Succinctly</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/Windows-8-1-Succinctly</guid>
+        
+        <category>Win8</category>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>More Windows 8.1 Succinctly</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      More Windows 8.1 Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        Move beyond the development stage and present your apps to the world. In this final volume, author Matteo Pagani guides you through the process of readying your Windows 8.1 and Windows Phone 8.1 apps for the Windows Store. You’ll learn how to integrate your app into Microsoft’s infrastructure to maximize its functionality and appeal.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Publishing an Application on the Store&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Interacting with the Network&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Interacting with the Real World&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Contracts and Extensions&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Creating Multimedia Applications&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Tiles and Notifications&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Supporting Background Operations&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Mon, 22 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/More-Windows-8-1-Succinctly</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/More-Windows-8-1-Succinctly</guid>
+        
+        <category>Win8</category>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>OWIN Succinctly</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      OWIN Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        The Open Web Server Interface for .NET specification, or OWIN, defines a standard interface for web servers and .NET client applications to interact that frees your code from IIS and System.Web. With &lt;i&gt;OWIN Succinctly&lt;/i&gt;, you will learn how to use Microsoft’s implementation of OWIN with different frameworks, how to write custom middleware to manage requests in the OWIN pipeline, and how to provide different forms of authentication to your web app. Now is the time to see what OWIN is all about—it has been a major influence on the development of ASP.NET v5, and will also be supported in it.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;OWIN&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Katana&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Using Katana with Other Web Frameworks&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Building Custom Middleware&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Authentication with Katana&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Appendix&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/OWIN-Succinctly</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/OWIN-Succinctly</guid>
+        
+        <category>OWIN</category>
+        
+        <category>eBook</category>
+        
+        <category>DotNet</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Message Queuing with RabbitMQ Succinctly</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Message Queuing with RabbitMQ Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        An introduction to the RabbitMQ integration platform with an emphasis on C# and .NET development. Author Stephen Haunts introduces the powerful message broker and queuing system, and guides novices from installation to practical coding. With &lt;i&gt;Message Queuing with RabbitMQ Succinctly&lt;/i&gt;, developers of all levels will be able to integrate multiple systems with ease.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Message Queuing Overview&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;RabbitMQ Overview&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;AMQP Messaging Standard&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Installing and Configuring RabbitMQ&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Overview of the Management Plug-in&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Administration via the Command Line&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Basic Queue and Message Example&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Working Examples&lt;/li&gt;
+    &lt;/ol&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/Message-Queuing-with-RabbitMQ-Succinctly</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/Message-Queuing-with-RabbitMQ-Succinctly</guid>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>ASP.NET MVC Succinctly</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      ASP.NET MVC Succinctly
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        ASP.NET MVC is a framework from Microsoft for building web apps. It follows the Model View Controller design pattern to keep the data, views, and logic clearly separated in apps, and encourages developers to follow good coding practices. The framework provides the Razor view engine for creating a consistent look and feel in your apps, and HTML helpers to provide an easy way to design your app without having to write all of the markup on your own. With &lt;i&gt;ASP.NET MVC Succinctly&lt;/i&gt; by Nick Harrison, you will learn how to use these features and more, including how to integrate your app with jQuery, and how to use MVC scaffolding to automatically generate the more tedious portions of your code.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Conceptual Overview&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;MVC Says Hello World&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;The World Says Hello Back&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Don’t Trust Everything the World Says&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;MVC Meets jQuery&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;MVC Scaffolding&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/ASPNET-MVC-Succinctly</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/ASPNET-MVC-Succinctly</guid>
+        
+        <category>AspNet</category>
+        
+        <category>eBook</category>
+        
+        <category>MVC</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Your First Meteor Application</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Your First Meteor Application
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;
+        A free, online book about the Meteor JavaScript framework that helps beginning web developers build their first real-time web application with Meteor in a matter of hours.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+
+
+
+
+    &lt;h3 class=&quot;heading&quot;&gt;Inside, you&#39;ll find: &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;24,000+ words, minus the bloat that plagues most technical books.&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Training that&#39;s precisely written for beginning web developers.&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Regular updates as the Meteor framework continues to evolve.&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Practical examples, real-world code samples, and helpful exercises&lt;/li&gt;
+    &lt;/ol&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/Your-First-Meteor-Application</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/Your-First-Meteor-Application</guid>
+        
+        <category>eBook</category>
+        
+        <category>MeteorJS</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Build Your First NodeJS App</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;
+      Build Your First NodeJS App
+    &lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;&lt;b&gt;Learn to Create Node.js Applications from Scratch&lt;/b&gt; &lt;br/&gt;Want to learn Node.js but haven’t had the chance to jump in yet&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;p&gt;In this eBook, we explorer beginning Node concepts and build &lt;strong&gt;three applications&lt;/strong&gt;:&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;A very simple Node application&lt;/li&gt;
+      &lt;li&gt;A Node server and HTML site&lt;/li&gt;
+      &lt;li&gt;An app to connect with the Instagram API and display the popular photos&lt;/li&gt;
+    &lt;/ul&gt;
+
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</description>
+        <pubDate>Mon, 08 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/build-your-first-node-js-app</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/build-your-first-node-js-app</guid>
+        
+        <category>eBook</category>
+        
+        <category>ScotchIO</category>
+        
+        <category>NodeJS</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>jQuery Succinctly</title>
+        <description>&lt;div class=&quot;download-info&quot;&gt;
+
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;h3 class=&quot;heading&quot;&gt;jQuery Succinctly&lt;/h3&gt;
+    &lt;div class=&quot;content-small description&quot;&gt;
+      &lt;p&gt;&lt;i&gt;jQuery Succinctly&lt;/i&gt; was written to express, in short-order, the concepts essential to intermediate
+        and advanced jQuery development. Its purpose is to instill in you, the reader, practices that
+        jQuery developers take as common knowledge. Each chapter contains concepts essential to
+        becoming a seasoned jQuery developer.
+      &lt;/p&gt;&lt;p&gt;
+      This book is intended for two types of readers. The first is someone who has read introductory
+      material on jQuery and is looking for the next logical step. The second type of reader is a
+      JavaScript developer, already versed in another library, now trying to quickly learn jQuery. I crafted this book to be used as my own personal reference point
+      for jQuery concepts. This is exactly the type of book I wish every JavaScript library had available.
+    &lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
+    &lt;ol class=&quot;table-content&quot;&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Core jQuery&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Selecting&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Traversing&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Manipulation&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;HTML Forms&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Events&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;jQuery and the Web Browser&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Plugins&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;Effects&lt;/li&gt;
+      &lt;li class=&quot;content-small&quot;&gt;AJAX&lt;/li&gt;
+    &lt;/ol&gt;
+
+    &lt;div class=&quot;video-section&quot;&gt;
+      &lt;h3 class=&quot;heading&quot;&gt;Watch Video Demo&lt;/h3&gt;
+      &lt;div class=&quot;description&quot;&gt;
+        &lt;div style=&quot;display: none;&quot;&gt;
+          &lt;div id=&quot;popup_video&quot;&gt;
+            &lt;iframe width=&quot;675px&quot; height=&quot;370px&quot; src=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;video-container&quot;&gt;
+          &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IkrhzcqilNE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p class=&quot;content-small&quot;&gt;
+        Cody Lindley talks about his first e-book published in Syncfusion&#39;s &lt;i&gt;Succinctly&lt;/i&gt; series—&lt;i&gt;jQuery Succinctly&lt;/i&gt;. Cody explains how the book originated as a personal reference, but soon became a valued resource for developers using jQuery or wanting to become more familiar with it.
+      &lt;/p&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+
+&lt;/div&gt;</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/ebooks/jQuery-Succinctly</link>
+        <guid isPermaLink="true">http://yourdomain.com/ebooks/jQuery-Succinctly</guid>
+        
+        <category>JavaScript</category>
+        
+        <category>eBook</category>
+        
+        <category>Succinctly</category>
+        
+        
+        <category>eBooks</category>
+        
+      </item>
+    
+  </channel>
+</rss>
