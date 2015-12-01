@@ -13,3 +13,9 @@ layout: default
   </div>
 
 </article>
+<ul class="tags">
+    {% for tag in page.tags %}
+
+    <li>{{ tag }}</li>
+    {% endfor %}
+</ul>
