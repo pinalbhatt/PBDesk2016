@@ -1,0 +1,114 @@
+[
+  {
+    name: "Home",
+    url: "/",
+    menuGroup: "Home",
+    icon: "zmdi zmdi-home"
+  },
+  {
+    name: "Blog",
+    url: "/blog",
+    menuGroup: "Blog",
+    icon: "",
+    subMenu: [
+      {
+        name: "Recent",
+        url: "/blog/recent",
+        menuGroup: "RecentBlog",
+      },
+      {
+        name: "Featured",
+        url: "/blog/featured",
+        menuGroup: "FeaturedBlog",
+      }
+      ]
+  },
+  {
+    name: "eBooks",
+    url: "/ebooks",
+    menuGroup: "eBooks",
+    icon: "zmdi zmdi-book",
+    subMenu: [
+      {
+        name: "Recent",
+        url: "/ebooks/Recent",
+        menuGroup: "RecentEBooks"
+      },
+      {
+        name: "Featured",
+        url: "/ebooks/featured",
+        menuGroup: "FeaturedEBooks"
+      },
+      {
+        name: "Categories",
+        url: "/ebooks/categories",
+        menuGroup: "CategoriesEBooks"
+      },
+      {
+        name: "By Tag",
+        url: "/ebooks/tags",
+        menuGroup: "TagsEBooks"
+      }
+    ]
+  },
+  {
+    name: "People",
+    url: "/people",
+    menuGroup: "People",
+    icon: ""
+  },
+  {
+    name: "Blog",
+    url: "/blog",
+    menuGroup: "Blog",
+    icon: "",
+    subMenu: [
+      {
+        name: "Recent",
+        url: "/blog/recent",
+        menuGroup: "RecentBlog",
+      },
+      {
+        name: "Featured",
+        url: "/blog/featured",
+        menuGroup: "FeaturedBlog",
+      }
+    ]
+  },
+  {
+    name: "Blog",
+    url: "/blog",
+    menuGroup: "Blog",
+    icon: "",
+    subMenu: [
+      {
+        name: "Recent",
+        url: "/blog/recent",
+        menuGroup: "RecentBlog",
+      },
+      {
+        name: "Featured",
+        url: "/blog/featured",
+        menuGroup: "FeaturedBlog",
+      }
+    ]
+  },
+  {
+    name: "Blog",
+    url: "/blog",
+    menuGroup: "Blog",
+    icon: "",
+    subMenu: [
+      {
+        name: "Recent",
+        url: "/blog/recent",
+        menuGroup: "RecentBlog",
+      },
+      {
+        name: "Featured",
+        url: "/blog/featured",
+        menuGroup: "FeaturedBlog",
+      }
+    ]
+  }
+]
