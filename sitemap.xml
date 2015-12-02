@@ -1,0 +1,1838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://yourdomain.com/</loc>
+    <lastmod>2015-12-02T17:34:57-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/jekyll/welcome-to-jekyll</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Introducing-Windows-10-for-IT-Professionals</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Ed-Bott</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Windows-8-1-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/More-Windows-8-1-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/OWIN-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Message-Queuing-with-RabbitMQ-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/ASPNET-MVC-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Your-First-Meteor-Application</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/David-Walsh</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/David-Turnbull</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/build-your-first-node-js-app</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/jQuery-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Succinctly-Objective-C</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/LINQ-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Git-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/CSS3-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Apache-Solr-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/ebooks/Accounting-Succinctly</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Zoran-Maksimovic</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Xavier-Morera</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Ugo-Lattanzi</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Tim-Heuer</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Tim-Elhajj</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Steven-Borg</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Steve-Sanderson</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Steve-Fenton</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Stephen-Haunts</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Stacia-Misner</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Simone-Chiaretta</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Scott-Hanselman</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Scott-Guthrie</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Scott-Allen</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Ryan-Hodson</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Rui-Machado</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Robert-Pickering</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Robert-Horvick</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Ricardo-Peres</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Rachel-Appel</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Pinal-Bhatt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Peter-Shaw</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Peter-Bromberg</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Patrick-Steele</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Patrice-Pelland</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Pascal-Par%C3%A9</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Parikshit-Savjani</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Pablo-M-Cibraro</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Nick-Harrison</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Nandip-Makwana</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Mike-Taulty</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Michael-McLaughlin</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Matteo-Pagani</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Marko-%C5%A0valjek</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Marc-Clifton</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Lyle-Luppes</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Linda-McCarthy</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Kyle-Burns</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Kraig-Brockschmidt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Ken-Haines</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Kedar-Kulkarni</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Katherine-Murray</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jose-M-Aguilar</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jonas-Gauffin</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jon-Galloway</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/John-V-Petersen</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/John-Papa</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/John-Garland</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Joe-Booth</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jesse-Liberty</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jess-Chadwick</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jerry-Nixon</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/JeffKoch</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jason-Roberts</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Jan-Van-der-Haegen</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/James-Tupper</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/James-McCaffrey</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/James-Beresford</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Gregor-Suttie</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Golnaz</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Giancarlo-Lelli</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Frederik-Dietz</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Filip-Wojcieszyn</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Fabio-Franzini</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Eric-Stitt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Eric-Ligman</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Emanuele-DelBono</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Edward-Charbeneau</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Dmitri-Nesteruk</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Derek-Jensen</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Daren-May</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Dan-Fernandez</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Damian-Edwards</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Cody-Lindley</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Clint-Rutkas</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Chris-Rose</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Cheryl-Hammond</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Charles-Zaiontz</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Buddy-James</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Brian-Keller</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Bob-Tabor</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Bill-Wagner</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Barton-Poulson</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Bart-De-Smet</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Andrew-Clear</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Andrew-Church</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Andrea-Boschin</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Alessandro-Del-Sole</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Agus-Kurniawan</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/people/Adam-Freeman</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/tutorial/jade-video-tuotrial</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/archives/post-template</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/jekyll/Moving-My-Blog-To-Jekyll</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/jekyll/welcome-to-jekyll</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/mvc6/asp-net-vnext-mvc-6-videos</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/asp-net-mvc-6-whats-new</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/c-code-snippet-send-email</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/nodejs/unit-testing-node-js-with-mocha</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/realm-package-managers</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/nodejs/nodejs-news-update</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/myprojects/rewriting-pbdesk-com</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/angularjs/angularjs-really-superheroic-javascipt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/javascript-random-number-between-two-integers</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/microsoft/net-4-5-vs2012-windows-8-released</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/featured/sqlite-browsers-explorers-admin-gui-tools</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/windows8/using-sqlite-with-winrt-metro-windows-8-mobile</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/asp.net/route-constraints-with-asp-net-mvc-webapi</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/ebook/free-ebooks-jquery-metro-apps</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/c-extension-methods-i-love-them</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/programming/c-generic-string-parser-extension-method</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/microsoft/whats-coming-up-new-with-net-4-5</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/scottgus-asp-net-vnext-series</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/googles-blogger-gets-a-refresh-new-look</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/asp.net/cms/razor-support-in-umbraco-4-7</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/elearning/re-usable-jquery-accordion-for-umbraco</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/cms/razor-support-in-umbraco</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/cms/umbraco-razor-syntax-for-breadcrumb</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/seo/canonical-url-for-umbraco-using-razor-syntax</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/asp.net/cms/asp-net-open-source-cms</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/seo/canonical-urls-for-umbraco</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/seo/canonical-url</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/google/free-cdn-service-that-too-from-google</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/google/javascript/microsoft/using-cdn-hosted-jquery-library</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/google/javascript/using-jquery-scripts-hosted-google</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/microsoft/using-jquery-scripts-hosted-microsoft</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/trim-functionality-in-javascript</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/string-format-for-javascript</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/mind-reader-this-program-probes-your-mind-try-it</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/drop-all-objects-in-sql-server</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/asp.net/visual-studio-2010-rc-is-now-available</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/design%20patterns/null-object-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/csharp/c-news-updates</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/asp.net/facebook/facebook-membership-provider</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/at-last-i-am-on-the-google-wave</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/reading-query-string-with-javascript</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/google-i-am-falling-in-love</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pinal-bhatt-online-my-aggregated-web-activities</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/chat-with-authorpinal-bhatt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/social-bookmarking-linksurls</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/firefox-add-ons-plug-ins-for-web-developers</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/jquery-ui-demo-theme-slate</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/jquery-ui-demo-theme-blue</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/jquery-ui-demo-theme-simple</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/my-delicious-bookmarks</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/my-social-networks</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/subscribe-rss-feeds</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/learning-f</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pinal-bhatt-linked-in</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/my-facebook-pinal-bhatt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/facebook-my-friends-carousel</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/twitter-tweets-by-pinal-bhatt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/assessment-center-ver1-0-scope</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/asp.net/uploading-files-to-ftp-server-using-asp-net</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pinal-bhatts-blog-learning-endeavor-for-ever</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/c-tutorial</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/learning-pathway-for-net</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/my-picture-gallery</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/what-is-minified-javascript</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/using-jquery-ui-theme-in-blogger-com</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pics-of-winter-dec2008</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/video/youtube/downloading-videos-from-youtube-other-sources</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/video/changing-formats-of-audio-video-files</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/resource-center-c</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/resource-center-visual-basic</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/resource-center-silverlight</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/resource-center-net-4-0</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/hello-world-2</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/resource-center-visual-studio-2010</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/tools-utilities-for-developers</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/fun-games</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/silverlight-slide-show</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/extension-methods-in-c</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/regular-expressions-in-javascript</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/code-for-strip-html-tags</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/useful-sites-for-kids</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/www-p-bhatt-com-2nd-release</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/cool-gadgetswidgets-for-web-pages</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/gadgets</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/contact-author-pinal-bhatt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/your-comments</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/recent-posts</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/featured-posts</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/tech-news</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/disclaimer</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/umbraco-downloads</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/project-center</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/learning-center</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/assessment-center</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/sitemap</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pinal-bhatt</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/search</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/pinal-bhatts-blog</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/101</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/abstract-class-vs-interface</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/rss-feeds-linq-to-xml</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/coding-standards-practices-for-net</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/c-vs-vb</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/design%20patterns/abstract-factory-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/design%20patterns/prototype-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/design%20patterns/factory-method-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/design%20patterns/builder-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/design%20patterns/singleton-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/design%20patterns/adapter-design-pattern</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/personal/krishna-songs-for-my-little-sweet-heart-tanaya</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/abstract-class-vs-interface-2</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/resource-center-firefox</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/my-links</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/net-framework-news-update</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/world-clock</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/design-patterns</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/c-string-utility-code-snippets</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/generic-methods-to-read-value-from-datareader</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/abcs-of-c</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/introduction-to-the-c-programming-language</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/asp.net/my-projects</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/dotnet/c-enum-tricks-tips</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/vb-news-updates</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/comparing-contrasting-abstract-class-vs-interface</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/comparing-contrasting-c-vs-vb</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/silverlight-news-update</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/search-2</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/common-javascript-utilities</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/net-learning-curve</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/programming/standards-practices-for-software-development-net</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/archive/my-delicious-bookmarks-2</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/javascript/javascript-utilities</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>http://yourdomain.com/blog/archive/blank-post</loc>
+      <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+    </url>
+  
+  
+  <url>
+    <loc>http://yourdomain.com/404</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/about/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/feed.xml</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/eBooks/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/eBooks/Recent/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Disclaimer/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/People/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/css/main.css</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/sitemap.xml</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

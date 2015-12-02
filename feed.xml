@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 01 Dec 2015 12:21:59 -0500</pubDate>
-    <lastBuildDate>Tue, 01 Dec 2015 12:21:59 -0500</lastBuildDate>
+    <pubDate>Wed, 02 Dec 2015 17:34:57 -0500</pubDate>
+    <lastBuildDate>Wed, 02 Dec 2015 17:34:57 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -69,6 +69,23 @@
         
         
         <category>eBooks</category>
+        
+      </item>
+    
+      <item>
+        <title>Ed Bott</title>
+        <description>&lt;div&gt;Ed Bott&lt;/div&gt;
+
+
+</description>
+        <pubDate>Fri, 17 Jul 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/people/Ed-Bott</link>
+        <guid isPermaLink="true">http://yourdomain.com/people/Ed-Bott</guid>
+        
+        <category>people</category>
+        
+        
+        <category>People</category>
         
       </item>
     
@@ -342,108 +359,19 @@
       </item>
     
       <item>
-        <title>Build Your First NodeJS App</title>
-        <description>&lt;div class=&quot;download-info&quot;&gt;
-
-  &lt;div class=&quot;row&quot;&gt;
-    &lt;h3 class=&quot;heading&quot;&gt;
-      Build Your First NodeJS App
-    &lt;/h3&gt;
-    &lt;div class=&quot;content-small description&quot;&gt;
-      &lt;p&gt;&lt;b&gt;Learn to Create Node.js Applications from Scratch&lt;/b&gt; &lt;br/&gt;Want to learn Node.js but haven’t had the chance to jump in yet&lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;p&gt;In this eBook, we explorer beginning Node concepts and build &lt;strong&gt;three applications&lt;/strong&gt;:&lt;/p&gt;
-    &lt;ul&gt;
-      &lt;li&gt;A very simple Node application&lt;/li&gt;
-      &lt;li&gt;A Node server and HTML site&lt;/li&gt;
-      &lt;li&gt;An app to connect with the Instagram API and display the popular photos&lt;/li&gt;
-    &lt;/ul&gt;
+        <title>David Walsh</title>
+        <description>&lt;div&gt;David Walsh&lt;/div&gt;
 
 
-  &lt;/div&gt;
-
-&lt;/div&gt;</description>
-        <pubDate>Mon, 08 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://yourdomain.com/ebooks/build-your-first-node-js-app</link>
-        <guid isPermaLink="true">http://yourdomain.com/ebooks/build-your-first-node-js-app</guid>
+</description>
+        <pubDate>Sun, 14 Jun 2015 00:00:00 -0400</pubDate>
+        <link>http://yourdomain.com/people/David-Walsh</link>
+        <guid isPermaLink="true">http://yourdomain.com/people/David-Walsh</guid>
         
-        <category>eBook</category>
-        
-        <category>ScotchIO</category>
-        
-        <category>NodeJS</category>
+        <category>people</category>
         
         
-        <category>eBooks</category>
-        
-      </item>
-    
-      <item>
-        <title>jQuery Succinctly</title>
-        <description>&lt;div class=&quot;download-info&quot;&gt;
-
-  &lt;div class=&quot;row&quot;&gt;
-    &lt;h3 class=&quot;heading&quot;&gt;jQuery Succinctly&lt;/h3&gt;
-    &lt;div class=&quot;content-small description&quot;&gt;
-      &lt;p&gt;&lt;i&gt;jQuery Succinctly&lt;/i&gt; was written to express, in short-order, the concepts essential to intermediate
-        and advanced jQuery development. Its purpose is to instill in you, the reader, practices that
-        jQuery developers take as common knowledge. Each chapter contains concepts essential to
-        becoming a seasoned jQuery developer.
-      &lt;/p&gt;&lt;p&gt;
-      This book is intended for two types of readers. The first is someone who has read introductory
-      material on jQuery and is looking for the next logical step. The second type of reader is a
-      JavaScript developer, already versed in another library, now trying to quickly learn jQuery. I crafted this book to be used as my own personal reference point
-      for jQuery concepts. This is exactly the type of book I wish every JavaScript library had available.
-    &lt;/p&gt;
-    &lt;/div&gt;
-
-    &lt;h3 class=&quot;heading&quot;&gt;Table of Contents &lt;/h3&gt;
-    &lt;ol class=&quot;table-content&quot;&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Core jQuery&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Selecting&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Traversing&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Manipulation&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;HTML Forms&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Events&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;jQuery and the Web Browser&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Plugins&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;Effects&lt;/li&gt;
-      &lt;li class=&quot;content-small&quot;&gt;AJAX&lt;/li&gt;
-    &lt;/ol&gt;
-
-    &lt;div class=&quot;video-section&quot;&gt;
-      &lt;h3 class=&quot;heading&quot;&gt;Watch Video Demo&lt;/h3&gt;
-      &lt;div class=&quot;description&quot;&gt;
-        &lt;div style=&quot;display: none;&quot;&gt;
-          &lt;div id=&quot;popup_video&quot;&gt;
-            &lt;iframe width=&quot;675px&quot; height=&quot;370px&quot; src=&quot;&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;video-container&quot;&gt;
-          &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IkrhzcqilNE&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;p class=&quot;content-small&quot;&gt;
-        Cody Lindley talks about his first e-book published in Syncfusion&#39;s &lt;i&gt;Succinctly&lt;/i&gt; series—&lt;i&gt;jQuery Succinctly&lt;/i&gt;. Cody explains how the book originated as a personal reference, but soon became a valued resource for developers using jQuery or wanting to become more familiar with it.
-      &lt;/p&gt;
-    &lt;/div&gt;
-
-  &lt;/div&gt;
-
-&lt;/div&gt;</description>
-        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
-        <link>http://yourdomain.com/ebooks/jQuery-Succinctly</link>
-        <guid isPermaLink="true">http://yourdomain.com/ebooks/jQuery-Succinctly</guid>
-        
-        <category>JavaScript</category>
-        
-        <category>eBook</category>
-        
-        <category>Succinctly</category>
-        
-        
-        <category>eBooks</category>
+        <category>People</category>
         
       </item>
     

@@ -1,62 +1,494 @@
 <!DOCTYPE html>
 <html>
-
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="9-QraChwe87dbsB7Z9mUPhsr7x8p3-Th81YdZnvMHnI" />
+    <meta name="msvalidate.01" content="402C43A44385B0E5A719E864C4D1B774" />
+    <title>Learning F#</title>
+    <meta name="description" content="F# - a new buzz word in the market. With .Net Framework 4.0 Microsoft is also planning to release F# - a multi-paradigm, strongly typed,&nbsp; functional pro...">
+    <meta name="keywords" content=", " />
+    <meta name="author" content="Pinal Bhatt" />
 
-  <title>Learning F#</title>
-  <meta name="description" content="F# - a new buzz word in the market. With .Net Framework 4.0 Microsoft is also planning to release F# - a multi-paradigm, strongly typed,&nbsp; functional pro...">
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon">
+    <meta property="fb:admins" content="731775365" />
+    <meta property="fb:app_id" content="150800278297282"/>
+    <meta property="og:title" content="Learning F#" />
+    <meta property="og:url" content="http://yourdomain.com/blog/dotnet/learning-f" />
+    <link type="text/plain" rel="author" href="http://pbdesk.io/humans.txt" />
+    <link href="https://plus.google.com/104802217330869674552" rel="publisher" />
+    <link href="https://plus.google.com/116495447274977757345?rel=author" rel="author" />
 
-  <link rel="stylesheet" href="/css/main.css">
+    
+
+    <link rel="stylesheet" href="/css/animate.min.css">
+    <link href="/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
+    <link href="/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/app.min.1.css">
+  <link rel="stylesheet" href="/css/app.min.2.css">
+  <link rel="stylesheet" href="/css/pbdesk.css">
   <link rel="canonical" href="http://yourdomain.com/blog/dotnet/learning-f">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 </head>
 
-
   <body>
+    <header id="header">
+    <ul class="header-inner">
+        <li id="menu-trigger" data-trigger="#sidebar">
+            <div class="line-wrap">
+                <div class="line top"></div>
+                <div class="line center"></div>
+                <div class="line bottom"></div>
+            </div>
+        </li>
 
-    <header class="site-header">
+        <li class="logo hidden-xs">
+            <a href="/">PBDesk.IO</a>
+        </li>
 
-  <div class="wrapper">
+        <li class="pull-right">
+            <ul class="top-menu">
+                <li id="toggle-width">
+                    <div class="toggle-switch">
+                        <input id="tw-switch" type="checkbox" hidden="hidden">
+                        <label for="tw-switch" class="ts-helper"></label>
+                    </div>
+                </li>
+                <li id="top-search">
+                    <a class="tm-search" href=""></a>
+                </li>
 
-    <a class="site-title" href="/">Your awesome title</a>
+                <li class="dropdown">
+                    <a data-toggle="dropdown" class="tm-settings" href=""></a>
+                    <ul class="dropdown-menu dm-icon pull-right">
+                        <li class="hidden-xs">
+                            <a data-action="fullscreen" href=""><i class="zmdi zmdi-fullscreen"></i> Toggle Fullscreen</a>
+                        </li>
+                        <li>
+                            <a data-action="clear-localstorage" href=""><i class="zmdi zmdi-delete"></i> Clear Local Storage</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="zmdi zmdi-face"></i> Privacy Settings</a>
+                        </li>
+                        <li>
+                            <a href=""><i class="zmdi zmdi-settings"></i> Other Settings</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="hidden-xs" id="chat-trigger" data-trigger="#chat">
+                    <a class="tm-chat" href=""></a>
+                </li>
+                </li>
+            </ul>
 
-    <nav class="site-nav">
-      <a href="#" class="menu-icon">
-        <svg viewBox="0 0 18 15">
-          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-        </svg>
-      </a>
-
-      <div class="trigger">
-        
-          
-          <a class="page-link" href="/about/">About</a>
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      </div>
-    </nav>
-
-  </div>
-
+            <!-- Top Search Content -->
+            <div id="top-search-wrap">
+                <input type="text">
+                <i id="top-search-close">&times;</i>
+            </div>
 </header>
+    <section id="main">
+        <aside id="sidebar">
+    <div class="sidebar-inner c-overflow">
+        <div class="profile-menu">
+            <a href="">
+                <div class="profile-pic">
+                    <img src="img/profile-pics/1.jpg" alt="">
+                </div>
+
+                <div class="profile-info">
+                    Pinal Bhatt
+
+                    <i class="zmdi zmdi-arrow-drop-down"></i>
+                </div>
+            </a>
+
+            <ul class="main-menu">
+                <li>
+                    <a href="profile-about.html"><i class="zmdi zmdi-account"></i> View Profile</a>
+                </li>
+                <li>
+                    <a href=""><i class="zmdi zmdi-input-antenna"></i> Privacy Settings</a>
+                </li>
+                <li>
+                    <a href=""><i class="zmdi zmdi-settings"></i> Settings</a>
+                </li>
+                <li>
+                    <a href=""><i class="zmdi zmdi-time-restore"></i> Logout</a>
+                </li>
+            </ul>
+        </div>
+
+        <ul class="main-menu">
+            
+                
+                    <li ><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
+                
 
 
-    <div class="page-content">
-      <div class="wrapper">
-        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+            
+                
+                    
+                    <li class="sub-menu">
+                    
+
+                        <a href=""><i class=""></i> Blog</a>
+
+                        <ul>
+                            
+                                <li><a href="/blog/recent"> Recent</a></li>
+                            
+                                <li><a href="/blog/featured"> Featured</a></li>
+                            
+
+                        </ul>
+                    </li>
+                
+
+
+
+            
+                
+                    
+                    <li class="sub-menu">
+                    
+
+                        <a href=""><i class="zmdi zmdi-book"></i> eBooks</a>
+
+                        <ul>
+                            
+                                <li><a href="/ebooks/Recent"> Recent</a></li>
+                            
+                                <li><a href="/ebooks/featured"> Featured</a></li>
+                            
+                                <li><a href="/ebooks/categories"> Categories</a></li>
+                            
+                                <li><a href="/ebooks/tags"> By Tag</a></li>
+                            
+
+                        </ul>
+                    </li>
+                
+
+
+
+            
+                
+                    <li ><a href="/people"><i class=""></i> People</a></li>
+                
+
+
+
+            
+                
+                    
+                    <li class="sub-menu">
+                    
+
+                        <a href=""><i class=""></i> Blog</a>
+
+                        <ul>
+                            
+                                <li><a href="/blog/recent"> Recent</a></li>
+                            
+                                <li><a href="/blog/featured"> Featured</a></li>
+                            
+
+                        </ul>
+                    </li>
+                
+
+
+
+            
+                
+                    
+                    <li class="sub-menu">
+                    
+
+                        <a href=""><i class=""></i> Blog</a>
+
+                        <ul>
+                            
+                                <li><a href="/blog/recent"> Recent</a></li>
+                            
+                                <li><a href="/blog/featured"> Featured</a></li>
+                            
+
+                        </ul>
+                    </li>
+                
+
+
+
+            
+                
+                    
+                    <li class="sub-menu">
+                    
+
+                        <a href=""><i class=""></i> Blog</a>
+
+                        <ul>
+                            
+                                <li><a href="/blog/recent"> Recent</a></li>
+                            
+                                <li><a href="/blog/featured"> Featured</a></li>
+                            
+
+                        </ul>
+                    </li>
+                
+
+
+
+            
+            <!--<li class="active"><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
+            <li><a href="typography.html"><i class="zmdi zmdi zmdi-format-underlined"></i> Typography</a></li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-widgets"></i> Widgets</a>
+
+                <ul>
+                    <li><a href="widget-templates.html">Templates</a></li>
+                    <li><a class="active" href="widgets.html">Widgets</a></li>
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-view-list"></i> Tables</a>
+
+                <ul>
+                    <li><a href="tables.html">Normal Tables</a></li>
+                    <li><a href="data-tables.html">Data Tables</a></li>
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-collection-text"></i> Forms</a>
+
+                <ul>
+                    <li><a href="form-elements.html">Basic Form Elements</a></li>
+                    <li><a href="form-components.html">Form Components</a></li>
+                    <li><a href="form-examples.html">Form Examples</a></li>
+                    <li><a href="form-validations.html">Form Validation</a></li>
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-swap-alt"></i>User Interface</a>
+                <ul>
+                    <li><a href="colors.html">Colors</a></li>
+                    <li><a href="animations.html">Animations</a></li>
+                    <li><a href="box-shadow.html">Box Shadow</a></li>
+                    <li><a href="buttons.html">Buttons</a></li>
+                    <li><a href="icons.html">Icons</a></li>
+                    <li><a href="alerts.html">Alerts</a></li>
+                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="components.html">Components</a></li>
+                    <li><a href="other-components.html">Others</a></li>
+                </ul>
+            </li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-trending-up"></i>Charts</a>
+                <ul>
+                    <li><a href="flot-charts.html">Flot Charts</a></li>
+                    <li><a href="other-charts.html">Other Charts</a></li>
+                </ul>
+            </li>
+            <li><a href="calendar.html"><i class="zmdi zmdi-calendar"></i> Calendar</a></li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-image"></i>Photo Gallery</a>
+                <ul>
+                    <li><a href="photos.html">Default</a></li>
+                    <li><a href="photo-timeline.html">Timeline</a></li>
+                </ul>
+            </li>
+
+            <li><a href="generic-classes.html"><i class="zmdi zmdi-layers"></i> Generic Classes</a></li>
+            <li class="sub-menu">
+                <a href=""><i class="zmdi zmdi-collection-item"></i> Sample Pages</a>
+                <ul>
+
+                    <li><a href="profile-about.html">Profile</a></li>
+                    <li><a href="list-view.html">List View</a></li>
+                    <li><a href="messages.html">Messages</a></li>
+                    <li><a href="pricing-table.html">Pricing Table</a></li>
+                    <li><a href="contacts.html">Contacts</a></li>
+                    <li><a href="wall.html">Wall</a></li>
+                    <li><a href="invoice.html">Invoice</a></li>
+                    <li><a href="login.html">Login and Sign Up</a></li>
+                    <li><a href="lockscreen.html">Lockscreen</a></li>
+                    <li><a href="404.html">Error 404</a></li>
+
+                </ul>
+            </li>-->
+        </ul>
+    </div>
+</aside>
+        <aside id="chat">
+    <ul class="tab-nav tn-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Friends</a></li>
+        <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">Online Now</a></li>
+    </ul>
+
+    <div class="chat-search">
+        <div class="fg-line">
+            <input type="text" class="form-control" placeholder="Search People">
+        </div>
+    </div>
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="friends">
+            <div class="listview">
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                            <i class="chat-status-busy"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Jonathan Morris</div>
+                            <small class="lv-small">Available</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img class="lv-img-sm" src="img/profile-pics/1.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">David Belle</div>
+                            <small class="lv-small">Last seen 3 hours ago</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                            <i class="chat-status-online"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Fredric Mitchell Jr.</div>
+                            <small class="lv-small">Availble</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                            <i class="chat-status-online"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Glenn Jecobs</div>
+                            <small class="lv-small">Availble</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img class="lv-img-sm" src="img/profile-pics/5.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Bill Phillips</div>
+                            <small class="lv-small">Last seen 3 days ago</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left">
+                            <img class="lv-img-sm" src="img/profile-pics/6.jpg" alt="">
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Wendy Mitchell</div>
+                            <small class="lv-small">Last seen 2 minutes ago</small>
+                        </div>
+                    </div>
+                </a>
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                            <i class="chat-status-busy"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Teena Bell Ann</div>
+                            <small class="lv-small">Busy</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="online">
+            <div class="listview">
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/2.jpg" alt="">
+                            <i class="chat-status-busy"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Jonathan Morris</div>
+                            <small class="lv-small">Available</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/3.jpg" alt="">
+                            <i class="chat-status-online"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Fredric Mitchell Jr.</div>
+                            <small class="lv-small">Availble</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/4.jpg" alt="">
+                            <i class="chat-status-online"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Glenn Jecobs</div>
+                            <small class="lv-small">Availble</small>
+                        </div>
+                    </div>
+                </a>
+
+                <a class="lv-item" href="">
+                    <div class="media">
+                        <div class="pull-left p-relative">
+                            <img class="lv-img-sm" src="img/profile-pics/7.jpg" alt="">
+                            <i class="chat-status-busy"></i>
+                        </div>
+                        <div class="media-body">
+                            <div class="lv-title">Teena Bell Ann</div>
+                            <small class="lv-small">Busy</small>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</aside>
+        <section id="content">
+            <div class="container">
+                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Learning F#</h1>
@@ -89,10 +521,55 @@
     
 </ul>
 
-      </div>
-    </div>
 
-    <footer class="site-footer">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Body Copy</h2>
+
+                        <ul class="actions">
+                            <li class="dropdown action-show">
+                                <a href="" data-toggle="dropdown">
+                                    <i class="zmdi zmdi-more-vert"></i>
+                                </a>
+
+                                <div class="dropdown-menu pull-right">
+                                    <p class="p-20">
+                                        You can put anything here
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="card-body card-padding">
+                        <!-- PBDeskIO-Responsive2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4686631795727964"
+     data-ad-slot="2916833545"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer id="footer">
+    &copy; 2016 PBDesk.IO | from the desk of Pinal Bhatt.
+    <br/> Concept perceived, designed and developed by Pinal Bhatt
+
+    <ul class="f-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Reports</a></li>
+        <li><a href="">Support</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</footer>
+<!--
+<footer class="site-footer">
 
   <div class="wrapper">
 
@@ -135,8 +612,34 @@
   </div>
 
 </footer>
+-->
+
+    <!-- Javascript Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+
+<script src="/vendors/bower_components/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+<script src="/vendors/bower_components/Waves/dist/waves.min.js"></script>
+<script src="/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+<script src="/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+
+<!-- Placeholder for IE9 -->
+<!--[if IE 9 ]>
+<script src="/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+<![endif]-->
+
+<script src="/js/moment.min.js"></script>
+<script src="/js/functions.js"></script>
+<script src="/js/demo.js"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53da632a1cf7b239" async="async"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-9753249-13', 'auto');
+    ga('send', 'pageview');
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 
   </body>
-
 </html>
