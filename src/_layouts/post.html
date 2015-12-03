@@ -115,11 +115,36 @@ layout: default
         </div>
     </div>
 
-    <div class="row">
-        {% for post in site.related_posts | limit: 4 %}
-        {{post.title}}
-        {% endfor %}
+    <div class="card">
+        <div class="card-header">
+            <h2>Related Posts</h2>
+        </div>
+
+        <div class="row">
+
+            {% for post in site.related_posts | limit: 4 %}
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-header bgm-cyan">
+                        <h2>{{ post.title }} <small>{{ post.date | date: "%b %-d, %Y" }}</small></h2>
+
+
+                    </div>
+
+                    <div class="card-body card-padding">
+                        Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis.
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+
+
+
     </div>
+
+
 
 
 
