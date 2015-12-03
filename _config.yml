@@ -27,3 +27,5 @@ buildDate: 2015-04-22 01:00:01.000000000 -05:00
 comments: true
 gems:
   - jekyll-gist
+category_archive:
+  path: /Archives
