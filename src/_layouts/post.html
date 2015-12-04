@@ -2,54 +2,29 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-    <div class="card">
+    <div class="card z-depth-2">
         <div class="card-header bgm-cyan">
             <h2 itemprop="name headline">{{ page.title }} <small>
                 <i class="fa fa-calendar"></i> <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
             </small>
             </h2>
-
-
-
-            <ul class="actions actions-alt">
-                <li class="dropdown">
-                    <a href="" data-toggle="dropdown" aria-expanded="false">
-                        <i class="zmdi zmdi-more-vert"></i>
-                    </a>
-
-                    <ul class="dropdown-menu dropdown-menu-right">
-                        <li>
-                            <a href="">Refresh</a>
-                        </li>
-                        <li>
-                            <a href="">Manage Widgets</a>
-                        </li>
-                        <li>
-                            <a href="">Widgets Settings</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
         </div>
 
         <div class="card-body card-padding">
             <i class="fa fa-bookmark"></i> <a href="/{{ page.categories[1] }}" class="catNameStyle">{{ page.categories[1] }}</a>
             <span style="float:right">
-            <i class="fa fa-tags"></i> {% for tag in page.tags %}<span><a href="/tag/{{tag}}">{{tag}}</a> </span>{% endfor %}
-                </span>
+                <i class="fa fa-tags"></i> <ul class="ptaglist">{% for tag in page.tags %}<li><a href="/tag/{{tag}}">{{tag}}</a> </li>{% endfor %}</ul>
+            </span>
             {{ content }}
         </div>
 
         <ul class="list-unstyled clearfix wpb-actions">
-            <li class="wpba-attrs">
-                <ul class="list-unstyled list-inline m-l-0 m-t-5">
-                    <li><a data-wpba="image" data-toggle="tab" href="" data-target="#wpm-image"><i class="zmdi zmdi-image"></i></a></li>
-                    <li><a data-wpba="video" data-toggle="tab" href="" data-target="#wpm-video"><i class="zmdi zmdi-play-circle"></i></a></li>
-                    <li><a data-wpba="link" data-toggle="tab" href="" data-target="#wpm-link"><i class="zmdi zmdi-link"></i></a></li>
-                </ul>
+            <li>
+                <i class="fa fa-tags"></i>
+                <ul class="ptaglist">{% for tag in page.tags %}<li><a href="/tag/{{tag}}">{{tag}}</a> </li>{% endfor %}</ul>
             </li>
 
-            <li class="pull-right"><button class="btn btn-primary btn-sm">Post</button></li>
+            <li class="pull-right"><i class="fa fa-bookmark"></i> <a href="/{{ page.categories[1] }}" class="catNameStyle">{{ page.categories[1] }}</a></li>
         </ul>
     </div>
 
@@ -105,7 +80,7 @@ layout: default
         </div>
     </div>-->
 
-    <div class="card">
+    <div class="card z-depth-2">
         <div class="card-header">
             <h2>Comments</h2>
         </div>
@@ -115,33 +90,21 @@ layout: default
         </div>
     </div>
 
-    <div class="card">
+    <div class="card z-depth-2">
         <div class="card-header">
             <h2>Related Posts</h2>
         </div>
-
-        <div class="row">
+        <div class="card-body card-padding">
+            <div class="row">
 
             {% for post in site.related_posts | limit: 4 %}
             <div class="col-sm-4">
-                <div class="card">
-                    <div class="card-header bgm-cyan">
-                        <h2>{{ post.title }} <small>{{ post.date | date: "%b %-d, %Y" }}</small></h2>
-
-
-                    </div>
-
-                    <div class="card-body card-padding">
-                        Cras leo sem, egestas a accumsan eget, euismod at nunc. Praesent vel mi blandit, tempus ex gravida, accumsan dui. Sed sed aliquam augue. Nullam vel suscipit purus, eu facilisis ante. Mauris nec commodo felis.
-                    </div>
-                </div>
+                {% include pagelets/postPagelet.html %}
             </div>
             {% endfor %}
 
         </div>
-
-
-
+        </div>
     </div>
 
 

@@ -6,6 +6,16 @@
     height: 30em;
 }
 
+.JText {
+    text-align: justify !important;
+}
+
+.CText {
+    text-align: center !important;
+}
+.bold {
+    font-weight:bold !important;
+}
 .social {
     margin-top: 15px;
     margin-bottom: 10px;
@@ -55,4 +65,42 @@
 
 .social a:hover i{
     background:#000;
+}
+
+.ptaglist {
+    display: inline;
+    list-style: none;
+    padding-left: 4px;
+}
+
+.ptaglist li {
+    display: inline;
+}
+
+.ptaglist li:after {
+    content: ", ";
+}
+
+.ptaglist li:last-child:after {
+    content: "";
+}
+
+.card {
+    font-size: larger;
+}
+
+.card .card-header h2 {
+    font-weight: bold
+}
+
+.bgm-cyan a {
+    color: #fff
+}
+
+.bgm-cyan a:hover {
+    color: wheat;
+}
+
+.bgm-cyan a:visited {
+    color: #fff
 }
