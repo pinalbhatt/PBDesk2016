@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="/css/animate.min.css">
     <link href="/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
     <link href="/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/css/app.min.1.css">
   <link rel="stylesheet" href="/css/app.min.2.css">
@@ -85,9 +86,13 @@
 
             <!-- Top Search Content -->
             <div id="top-search-wrap">
-                <input type="text">
+                <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
+                    <input id="q" name="q" type="text" class="form-control" placeholder="Type to Search...">
+                </form>
                 <i id="top-search-close">&times;</i>
             </div>
+
+
 </header>
     <section id="main">
         <aside id="sidebar">
@@ -99,24 +104,20 @@
                 </div>
 
                 <div class="profile-info">
-                    Pinal Bhatt
-
+                    <span style="font-weight: bold">Pinal Bhatt</span>
                     <i class="zmdi zmdi-arrow-drop-down"></i>
                 </div>
             </a>
 
             <ul class="main-menu">
                 <li>
-                    <a href="profile-about.html"><i class="zmdi zmdi-account"></i> View Profile</a>
+                    <a href="/about"><i class="zmdi zmdi-account"></i> About Me</a>
                 </li>
                 <li>
-                    <a href=""><i class="zmdi zmdi-input-antenna"></i> Privacy Settings</a>
+                    <a href="/about/contact"><i class="zmdi zmdi-input-antenna"></i> Contact Me</a>
                 </li>
                 <li>
-                    <a href=""><i class="zmdi zmdi-settings"></i> Settings</a>
-                </li>
-                <li>
-                    <a href=""><i class="zmdi zmdi-time-restore"></i> Logout</a>
+                    <a href="/Resume"><i class="zmdi zmdi-settings"></i> My Resume</a>
                 </li>
             </ul>
         </div>
@@ -327,16 +328,17 @@
     </div>
 </aside>
         <aside id="chat">
-    <ul class="tab-nav tn-justified" role="tablist">
-        <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Friends</a></li>
-        <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">Online Now</a></li>
-    </ul>
-
     <div class="chat-search">
         <div class="fg-line">
-            <input type="text" class="form-control" placeholder="Search People">
+            <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
+                <input id="q" name="q" type="text" class="form-control" placeholder="Type to Search...">
+            </form>
         </div>
     </div>
+    <ul class="tab-nav tn-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Featured</a></li>
+        <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">About Me</a></li>
+    </ul>
 
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active" id="friends">
@@ -489,14 +491,20 @@
         <section id="content">
             <div class="container">
                 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="card z-depth-2">
+        <div class="card-header bgm-cyan">
+            <h2 itemprop="name headline">String.Format() for JavaScript <small>
+                <i class="fa fa-calendar"></i> <time datetime="2010-11-30T11:33:00-05:00" itemprop="datePublished">Nov 30, 2010</time>
+            </small>
+            </h2>
+        </div>
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">String.Format() for JavaScript</h1>
-    <p class="post-meta"><time datetime="2010-11-30T11:33:00-05:00" itemprop="datePublished">Nov 30, 2010</time> • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{"login"=>"pbadmin", "email"=>"pinalbhatt@gmail.com", "display_name"=>"PBDesk Admin", "first_name"=>"Pinal", "last_name"=>"Bhatt"}</span></span></p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    <p align="justify">.Net's <a href="http://msdn.microsoft.com/en-us/library/system.string.format(v=VS.100).aspx" target="_blank">String.Format</a> is a very powerful method for working with strings and is one of my favorite utility which I have been using in C# &amp; VB.net since long. And while working with javascript, lot many times I thought if we had something equivelent to .Net's&#160; String.Format in javascript. Finally after goggling and taking help form few blogs I finally wrote following String.Format function into my javascript library. </p>
+        <div class="card-body card-padding">
+            <i class="fa fa-bookmark"></i> <a href="/JavaScript" class="catNameStyle">JavaScript</a>
+            <span style="float:right">
+                <i class="fa fa-tags"></i> <ul class="ptaglist"></ul>
+            </span>
+            <p align="justify">.Net's <a href="http://msdn.microsoft.com/en-us/library/system.string.format(v=VS.100).aspx" target="_blank">String.Format</a> is a very powerful method for working with strings and is one of my favorite utility which I have been using in C# &amp; VB.net since long. And while working with javascript, lot many times I thought if we had something equivelent to .Net's&#160; String.Format in javascript. Finally after goggling and taking help form few blogs I finally wrote following String.Format function into my javascript library. </p>
 <pre style="border-bottom: #cecece 1px solid; border-left: #cecece 1px solid; padding-bottom: 5px; background-color: #fbfbfb; min-height: 40px; padding-left: 5px; width: 500px; padding-right: 5px; overflow: auto; border-top: #cecece 1px solid; border-right: #cecece 1px solid; padding-top: 5px"><pre style="background-color: #d6d6d6; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"><span style="color: #0000ff">String</span>.format = <span style="color: #0000ff">function</span> (text) {
 </pre>
 <pre style="background-color: #ffffff; margin: 0em; width: 100%; font-family: consolas,&#39;Courier New&#39;,courier,monospace; font-size: 12px"></pre>
@@ -571,33 +579,172 @@
 <li><a href="http://www.p-bhatt.com/2010/11/trim-functionality-in-javascript.html">Trim() functionality in JavaScript</a></li>
 </ul>
 
-  </div>
+        </div>
+
+        <ul class="list-unstyled clearfix wpb-actions">
+            <li>
+                <i class="fa fa-tags"></i>
+                <ul class="ptaglist"></ul>
+            </li>
+
+            <li class="pull-right"><i class="fa fa-bookmark"></i> <a href="/JavaScript" class="catNameStyle">JavaScript</a></li>
+        </ul>
+    </div>
+
+
+
+   <!-- <div class="card">
+        <div class="card-header">
+            <h2><a href="/JavaScript" class="catNameStyle">JavaScript</a></h2>
+
+            <ul class="actions">
+                <li class="dropdown action-show">
+                    <a href="" data-toggle="dropdown">
+                        <i class="zmdi zmdi-more-vert"></i>
+                    </a>
+
+                    <div class="dropdown-menu pull-right">
+                        <p class="p-20">
+                            You can put anything here
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card-body card-padding">
+            <h1>This is a Heading 1</h1>
+            <p>Suspendisse vel quam malesuada, aliquet sem sit amet, fringilla elit. Morbi tempor tincidunt tempor. Etiam id turpis viverra, vulputate sapien nec, varius sem. Curabitur ullamcorper fringilla eleifend. In ut eros hendrerit est consequat posuere et at velit.</p>
+
+            <div class="clearfix"></div>
+
+            <h2>This is a Heading 2</h2>
+            <p>In nec rhoncus eros. Vestibulum eu mattis nisl. Quisque viverra viverra magna nec pulvinar. Maecenas pellentesque porta augue, consectetur facilisis diam porttitor sed. Suspendisse tempor est sodales augue rutrum tincidunt. Quisque a malesuada purus.</p>
+
+            <div class="clearfix"></div>
+
+            <h3>This is a Heading 3</h3>
+            <p>Vestibulum auctor tincidunt semper. Phasellus ut vulputate lacus. Suspendisse ultricies mi eros, sit amet tempor nulla varius sed. Proin nisl nisi, feugiat quis bibendum vitae, dapibus in tellus.</p>
+
+            <div class="clearfix"></div>
+
+            <h4>This is a Heading 4</h4>
+            <p>Nulla et mattis nunc. Curabitur scelerisque commodo condimentum. Mauris blandit, velit a consectetur egestas, diam arcu fermentum justo, eget ultrices arcu eros vel erat.</p>
+
+            <div class="clearfix"></div>
+
+            <h5>This is a Heading 5</h5>
+            <p>Quisque nec turpis at urna dictum luctus. Suspendisse convallis dignissim eros at volutpat. In egestas mattis dui. Aliquam mattis dictum aliquet. Nulla sapien mauris, eleifend et sem ac, commodo dapibus odio. Vivamus pretium nec odio cursus elementum. Suspendisse molestie ullamcorper ornare.</p>
+
+            <div class="clearfix"></div>
+
+            <h6>This is a Heading 6</h6>
+            <p>Donec ultricies, lacus id tempor condimentum, orci leo faucibus sem, a molestie libero lectus ac justo. ultricies mi eros, sit amet tempor nulla varius sed. Proin nisl nisi, feugiat quis bibendum vitae, dapibus in tellus.</p>
+        </div>
+    </div>-->
+
+    <div class="card z-depth-2">
+        <div class="card-header">
+            <h2>Comments</h2>
+        </div>
+
+        <div class="card-body card-padding">
+            
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'blogpbdeskcom';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+        </div>
+    </div>
+
+    <div class="card z-depth-2">
+        <div class="card-header">
+            <h2>Related Posts</h2>
+        </div>
+        <div class="card-body card-padding">
+            <div class="row">
+
+            
+            <div class="col-sm-4">
+                <div class="card z-depth-4">
+    <div class="card-body card-padding bgm-cyan c-white">
+        <a href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a>
+        <p><small>Dec 1, 2015</small></p>
+        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
+    </div>
+    <ul class="list-unstyled clearfix wpb-actions">
+        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">blog</a></li>
+        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
+    </ul>
+</div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="card z-depth-4">
+    <div class="card-body card-padding bgm-cyan c-white">
+        <a href="/ebooks/Introducing-Windows-10-for-IT-Professionals">Introducing Windows 10 for IT Professionals</a>
+        <p><small>Jul 17, 2015</small></p>
+        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
+    </div>
+    <ul class="list-unstyled clearfix wpb-actions">
+        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">eBooks</a></li>
+        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
+    </ul>
+</div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="card z-depth-4">
+    <div class="card-body card-padding bgm-cyan c-white">
+        <a href="/people/Ed-Bott">Ed Bott</a>
+        <p><small>Jul 17, 2015</small></p>
+        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
+    </div>
+    <ul class="list-unstyled clearfix wpb-actions">
+        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">People</a></li>
+        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
+    </ul>
+</div>
+            </div>
+            
+            <div class="col-sm-4">
+                <div class="card z-depth-4">
+    <div class="card-body card-padding bgm-cyan c-white">
+        <a href="/ebooks/Windows-8-1-Succinctly">Windows 8.1 Succinctly</a>
+        <p><small>Jun 22, 2015</small></p>
+        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
+    </div>
+    <ul class="list-unstyled clearfix wpb-actions">
+        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">eBooks</a></li>
+        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
+    </ul>
+</div>
+            </div>
+            
+
+        </div>
+        </div>
+    </div>
+
+
+
+
+
 
 </article>
-<ul class="tags">
-    
-</ul>
 
 
                 <div class="card">
-                    <div class="card-header">
-                        <h2>Body Copy</h2>
-
-                        <ul class="actions">
-                            <li class="dropdown action-show">
-                                <a href="" data-toggle="dropdown">
-                                    <i class="zmdi zmdi-more-vert"></i>
-                                </a>
-
-                                <div class="dropdown-menu pull-right">
-                                    <p class="p-20">
-                                        You can put anything here
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
                     <div class="card-body card-padding">
                         <!-- PBDeskIO-Responsive2 -->
 <ins class="adsbygoogle"
@@ -618,11 +765,11 @@
     <br/> Concept perceived, designed and developed by Pinal Bhatt
 
     <ul class="f-menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">Dashboard</a></li>
-        <li><a href="">Reports</a></li>
-        <li><a href="">Support</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/sitemap">SiteMap</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/about/contact">Contact</a></li>
+        <li><a href="/disclaimer">Disclaimer</a></li>
     </ul>
 </footer>
 <!--

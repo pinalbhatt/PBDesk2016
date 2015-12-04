@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="/css/animate.min.css">
     <link href="/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
     <link href="/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 
   <link rel="stylesheet" href="/css/app.min.1.css">
   <link rel="stylesheet" href="/css/app.min.2.css">
@@ -86,9 +87,13 @@
 
             <!-- Top Search Content -->
             <div id="top-search-wrap">
-                <input type="text">
+                <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
+                    <input id="q" name="q" type="text" class="form-control" placeholder="Type to Search...">
+                </form>
                 <i id="top-search-close">&times;</i>
             </div>
+
+
 </header>
     <section id="main">
         <aside id="sidebar">
@@ -100,24 +105,20 @@
                 </div>
 
                 <div class="profile-info">
-                    Pinal Bhatt
-
+                    <span style="font-weight: bold">Pinal Bhatt</span>
                     <i class="zmdi zmdi-arrow-drop-down"></i>
                 </div>
             </a>
 
             <ul class="main-menu">
                 <li>
-                    <a href="profile-about.html"><i class="zmdi zmdi-account"></i> View Profile</a>
+                    <a href="/about"><i class="zmdi zmdi-account"></i> About Me</a>
                 </li>
                 <li>
-                    <a href=""><i class="zmdi zmdi-input-antenna"></i> Privacy Settings</a>
+                    <a href="/about/contact"><i class="zmdi zmdi-input-antenna"></i> Contact Me</a>
                 </li>
                 <li>
-                    <a href=""><i class="zmdi zmdi-settings"></i> Settings</a>
-                </li>
-                <li>
-                    <a href=""><i class="zmdi zmdi-time-restore"></i> Logout</a>
+                    <a href="/Resume"><i class="zmdi zmdi-settings"></i> My Resume</a>
                 </li>
             </ul>
         </div>
@@ -328,16 +329,17 @@
     </div>
 </aside>
         <aside id="chat">
-    <ul class="tab-nav tn-justified" role="tablist">
-        <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Friends</a></li>
-        <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">Online Now</a></li>
-    </ul>
-
     <div class="chat-search">
         <div class="fg-line">
-            <input type="text" class="form-control" placeholder="Search People">
+            <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
+                <input id="q" name="q" type="text" class="form-control" placeholder="Type to Search...">
+            </form>
         </div>
     </div>
+    <ul class="tab-nav tn-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#friends" aria-controls="friends" role="tab" data-toggle="tab">Featured</a></li>
+        <li role="presentation"><a href="#online" aria-controls="online" role="tab" data-toggle="tab">About Me</a></li>
+    </ul>
 
     <div class="tab-content">
         <div role="tabpanel" class="tab-pane fade in active" id="friends">
@@ -489,7 +491,265 @@
 </aside>
         <section id="content">
             <div class="container">
-                <div class="card">
+                <div class="row">
+
+
+<div class="col-sm-4">
+
+    <div class="card">
+        <div class="card-header bgm-cyan"> <!-- Please refer the Colors page in User Interface for more color classes -->
+            <h2>Welcome to my desk! <small>from the desk of Pinal Bhatt</small></h2>
+        </div>
+
+        <div class="card-body card-padding JText">
+            Hello Everyone! I'm Pinal Bhatt and Welcome to My Desk!. I am a software engineer, basically a developer and always on learning ramp. On this site you'll find interesting posts, articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, VB.Net, Silverlight, WPF, Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, MongoDB, Mocha,Design Patterns, Social Media, Mobiles, Science & Technology and other random thoughts and opinions.
+        </div>
+    </div>
+
+    <div class="card profile-view">
+        <div class="pv-header">
+            <img src="img/profile-pics/1.jpg" class="pv-main" alt="">
+        </div>
+
+        <div class="pv-body">
+            <h2>Pinal Bhatt</h2>
+            <small>Software Engineer </small>
+            <ul class="pv-contact">
+                <li>always on the learning ramp</li>
+            </ul>
+            <div class="social"><a target="_blank" class="twitter" href="http://twitter.com/PBDesk"><i class="fa fa-twitter"></i></a> <a target="_blank" class="facebook" href="https://www.facebook.com/Go.PBDesk"><i class="fa fa-facebook"></i></a> <a target="_blank" class="google-plus" href="https://plus.google.com/+Pbdesk"><i class="fa fa-google-plus"></i></a> <a target="_blank" class="linkedin" href="http://www.linkedin.com/in/pinalbhatt"><i class="fa fa-linkedin"></i></a> <a target="_blank" class="pinterest" href="https://github.com/PBDesk"><i class="fa fa-github"></i></a></div>
+            <ul class="pv-follow">
+                <li><i class="zmdi zmdi-globe-alt"></i> www.PBDesk.IO</li>
+
+            </ul>
+
+            <a href="" class="pv-follow-btn">About Me</a>
+        </div>
+    </div>
+
+    <div class="card rating-list">
+        <!-- PBDeskIO-Responsive2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4686631795727964"
+     data-ad-slot="2916833545"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+</div>
+
+<div class="col-sm-4">
+    <!-- Tabs -->
+    <div class="card">
+        <div class="card-header">
+            <h2>Blended Learning Pathway <small>Free eLearning Resources for you</small></h2>
+        </div>
+
+        <div class="card-body">
+            <ul class="tab-nav tn-justified tn-icon" role="tablist">
+                <li role="presentation" class="active">
+                    <a class="col-sx-4" href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                        <i class="zmdi zmdi-book icon-tab"></i>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a class="col-xs-4" href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
+                        <i class="zmdi zmdi-tv-list icon-tab"></i>
+                    </a>
+                </li>
+                <li role="presentation">
+                    <a class="col-xs-4" href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">
+                        <i class="zmdi zmdi-layers icon-tab"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content p-20">
+                <div role="tabpanel" class="tab-pane animated fadeIn in active" id="tab-1">
+                    <h2>eBooks</h2>
+                    Books - one of the basic source of Knowledge now in digital formats called "eBooks"
+                    <ul class="list-unstyled clearfix">
+                        <li class="pull-right"><a href="/ebooks"><button class="btn btn-warning btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-arrow-forward"></i></button></a></li>
+                    </ul>
+                </div>
+
+                <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-2">
+                    <h2>Tutorials</h2>
+                    Complete Tutorial Series - Free online tutorials and videos for self learning technology concepts.
+                    <ul class="list-unstyled clearfix">
+                        <li class="pull-right"><a href="/ebooks"><button class="btn btn-warning btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-arrow-forward"></i></button></a></li>
+                    </ul>
+                </div>
+
+                <div role="tabpanel" class="tab-pane animated fadeIn" id="tab-3">
+                    <h2>Articles</h2>
+                    Articles and blog posts that I would like to share with you.
+                    <ul class="list-unstyled clearfix">
+                        <li class="pull-right"><a href="/ebooks"><button class="btn btn-warning btn-icon waves-effect waves-circle waves-float"><i class="zmdi zmdi-arrow-forward"></i></button></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="card rating-list">
+        <!-- PBDeskIO-Responsive2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4686631795727964"
+     data-ad-slot="2916833545"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+    <!-- Social -->
+    <div class="card go-social">
+        <div class="card-header">
+            <h2>Social with us <small>Nunc sit amet dapibus tellus</small></h2>
+        </div>
+
+        <div class="card-body clearfix">
+            <a class="col-xs-4" href="">
+                <img src="img/social/facebook-128.png" class="img-responsive" alt="">
+            </a>
+
+            <a class="col-xs-4" href="">
+                <img src="img/social/twitter-128.png" class="img-responsive" alt="">
+            </a>
+
+            <a class="col-xs-4" href="">
+                <img src="img/social/googleplus-128.png" class="img-responsive" alt="">
+            </a>
+
+            <a class="col-xs-4" href="">
+                <img src="img/social/linkedin-128.png" class="img-responsive" alt="">
+            </a>
+
+            <a class="col-xs-4" href="">
+                <img src="img/social/youtube-128.png" class="img-responsive" alt="">
+            </a>
+
+            <a class="col-xs-4" href="">
+                <img src="img/social/blogger-128.png" class="img-responsive" alt="">
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="col-sm-4">
+    <!-- Rating -->
+    <div class="card rating-list">
+        <!-- PBDeskIO-Responsive2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4686631795727964"
+     data-ad-slot="2916833545"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+
+    <div class="card picture-list">
+        <div class="card-header">
+            <h2>Learn Technology <small>Tutorials & Videos by Topic</small></h2>
+        </div>
+
+        <div class="pl-body">
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/angular256.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/html5_256.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/javascript.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/meteor128.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/nodejs256.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/dotnet256.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/vs256.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/gulp.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/aspnet.jpeg" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/react256.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/csharp128.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/css256.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/mocah256.png" alt="">
+                </a>
+            </div>
+            <div class="col-xs-3">
+                <a href="">
+                    <img src="img/logos/typesacript.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Custom header -->
+    <div class="card">
+        <div class="card-header bgm-cyan"> <!-- Please refer the Colors page in User Interface for more color classes -->
+            <h2>This Site <small>My love to developer community</small></h2>
+        </div>
+
+        <div class="card-body card-padding JText" >
+            I created this site to narrate my coding and technology learning experiences. I like sharing my experiments, ideas and experience with everyone by writing articles on latest technological trends. I feel pleased and pride by sharing my knowledge and information that I have gained via Internet. And this site is my heartily attempt towards this.
+        </div>
+    </div>
+
+</div>
+
+</div>
+<div class="card">
     <div class="card-header">
         <h2>Body Copy</h2>
 
@@ -10644,7 +10904,7 @@
     
     
     
-    <li>asp.net has 3 posts</li>
+    <li>asp.net has 4 posts</li>
     
     
     
@@ -10724,7 +10984,7 @@
     
     
     
-    <li>jekyll has 3 posts</li>
+    <li>jekyll has 4 posts</li>
     
     
     
@@ -10786,28 +11046,18 @@
     
     <li>windows10 has 1 posts</li>
     
+    
+    
+    <li>something has 1 posts</li>
+    
+    
+    
+    <li>sampletag has 1 posts</li>
+    
 </ul>
 
 
                 <div class="card">
-                    <div class="card-header">
-                        <h2>Body Copy</h2>
-
-                        <ul class="actions">
-                            <li class="dropdown action-show">
-                                <a href="" data-toggle="dropdown">
-                                    <i class="zmdi zmdi-more-vert"></i>
-                                </a>
-
-                                <div class="dropdown-menu pull-right">
-                                    <p class="p-20">
-                                        You can put anything here
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
                     <div class="card-body card-padding">
                         <!-- PBDeskIO-Responsive2 -->
 <ins class="adsbygoogle"
@@ -10828,11 +11078,11 @@
     <br/> Concept perceived, designed and developed by Pinal Bhatt
 
     <ul class="f-menu">
-        <li><a href="">Home</a></li>
-        <li><a href="">Dashboard</a></li>
-        <li><a href="">Reports</a></li>
-        <li><a href="">Support</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/sitemap">SiteMap</a></li>
+        <li><a href="/about">About Me</a></li>
+        <li><a href="/about/contact">Contact</a></li>
+        <li><a href="/disclaimer">Disclaimer</a></li>
     </ul>
 </footer>
 <!--

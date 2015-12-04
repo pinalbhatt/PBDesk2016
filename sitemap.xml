@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://yourdomain.com/</loc>
-    <lastmod>2015-12-02T17:34:57-05:00</lastmod>
+    <lastmod>2015-12-04T17:25:25-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1801,7 +1801,7 @@
   </url>
   
   <url>
-    <loc>http://yourdomain.com/</loc>
+    <loc>http://yourdomain.com/People/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1815,7 +1815,21 @@
   </url>
   
   <url>
-    <loc>http://yourdomain.com/People/</loc>
+    <loc>http://yourdomain.com/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/blog/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Search/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1830,6 +1844,538 @@
   
   <url>
     <loc>http://yourdomain.com/sitemap.xml</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/blog/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Archive/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/JavaScript/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Programming/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/DotNet/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Asp.Net/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Personal/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Design Patterns/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/video/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/youtube/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/JSON/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Facebook/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/CSharp/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Microsoft/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Google/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/SEO/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/CMS/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/eLearning/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/eBook/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Windows8/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Featured/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/AngularJS/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/MyProjects/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/NodeJS/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/MVC6/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/jekyll/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Archives/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/Tutorial/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/People/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Archives/eBooks/index.html</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/CSharp/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/TechNews/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/DotNet/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/eBook/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Windows8/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/jQuery/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/DotNet45/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/SQLite/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/ASP.Net/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/EntityFramework/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Microsoft/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/MVC/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/VisualStudio/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/WebAPI/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/code%20snippet/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/gist/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/JavaScript/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/AngularJS/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/PBDesk/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Umbraco/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/NodeJS/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Express/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Jade/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/NTVS/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/VS2013/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Programming/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/CodeSnippet/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/MVC6/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Jekyll/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/MyProject/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/HTML5/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Tutorial/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/people/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Succinctly/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/CSS3/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/WebDesigning/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/git/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Objective-c/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/ScotchIO/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/MeteorJS/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/AspNet/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/OWIN/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Win8/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/Windows10/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/something/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/tag/sampleTag/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
