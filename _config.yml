@@ -25,6 +25,9 @@ source: src
 destination: serve
 buildDate: 2015-04-22 01:00:01.000000000 -05:00
 comments: true
+colors:
+  blog: cyan
+  ebooks: blue
 gems:
   - jekyll-gist
 category_archive:

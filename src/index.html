@@ -236,36 +236,40 @@ menuGroup: Home
 </div>
 
 </div>
-<div class="card">
-    <div class="card-header">
-        <h2>Body Copy</h2>
-
-        <ul class="actions">
-            <li class="dropdown action-show">
-                <a href="" data-toggle="dropdown">
-                    <i class="zmdi zmdi-more-vert"></i>
-                </a>
-
-                <div class="dropdown-menu pull-right">
-                    <p class="p-20">
-                        You can put anything here
-                    </p>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-    <div class="card-body card-padding">
-        <p class="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>
-        <p>Pellentesque lacinia sagittis libero et feugiat. Etiam volutpat adipiscing tortor non luctus. Vivamus venenatis vitae metus et aliquet. Praesent vitae justo purus. In hendrerit lorem nisl, ac lacinia urna aliquet non. Quisque nisi tellus, rhoncus quis est sit amet, lacinia euismod nunc. Aenean nec nibh velit. Fusce quis ante in nisl molestie fringilla. Nunc vitae ante id magna feugiat condimentum. Maecenas sit amet urna massa.</p>
-        <p>Integer eu lectus sollicitudin, hendrerit est ac, sollicitudin nisl. Quisque viverra sodales lectus nec ultrices. Fusce elit dolor, dignissim a nunc id, varius suscipit turpis. Cras porttitor turpis vitae leo accumsan molestie. Morbi vitae luctus leo. Sed nec scelerisque magna, et adipiscing est. Proin lobortis lectus eu sem ullamcorper, commodo malesuada quam fringilla. Curabitur ac nunc dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sagittis enim eu est lacinia, ut egestas ligula imperdiet.</p>
-    </div>
-</div>
-
 
 <div class="card z-depth-2">
-    <div class="card-header">
-        <h2>Featured Posts</h2>
+    <div class="card-header ch-alt m-b-20">
+        <h2>Blog Posts <small>some featured blog posts by me</small></h2>
+        <ul class="actions">
+            <li>
+                <a title="By Category" href="">
+                    <i class="fa fa-bookmark c-{{site.colors.blog}}"></i>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-tags c-{{site.colors.blog}}"></i>
+                </a>
+            </li>
+            <li class="dropdown">
+                <a href="" data-toggle="dropdown">
+                    <i class="zmdi zmdi-more-vert c-{{site.colors.blog}}"></i>
+                </a>
+
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <a title="" href="">By Category <i class="fa fa-bookmark"></i> </a>
+                    </li>
+                    <li>
+                        <a href="">By Tags <i class="fa fa-tags"></i></a>
+                    </li>
+                    <li>
+                        <a href="/blog">All Posts <i class="zmdi zmdi-collection-text"></i></a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+       <a href="/blog" title="All Posts"> <button class="btn bgm-{{site.colors.blog}} btn-float waves-effect"><i class="zmdi zmdi-collection-text"></i></button></a>
     </div>
     <div class="card-body card-padding">
         <div class="row">
@@ -300,13 +304,16 @@ menuGroup: Home
     <ul class="list-unstyled clearfix wpb-actions">
         <li class="wpba-attrs">
             <ul class="list-unstyled list-inline m-l-0 m-t-5">
-                <li><a data-wpba="image" data-toggle="tab" href="" data-target="#wpm-image"><i class="zmdi zmdi-image"></i></a></li>
-                <li><a data-wpba="video" data-toggle="tab" href="" data-target="#wpm-video"><i class="zmdi zmdi-play-circle"></i></a></li>
-                <li><a data-wpba="link" data-toggle="tab" href="" data-target="#wpm-link"><i class="zmdi zmdi-link"></i></a></li>
+                <li><a title="By Category" href="">
+                    <i class="fa fa-bookmark c-{{site.colors.blog}}"></i>
+                </a></li>
+                <li><a href="">
+                    <i class="fa fa-tags c-{{site.colors.blog}}"></i>
+                </a></li>
             </ul>
         </li>
 
-        <li class="pull-right"><a href="/blog"><button class="btn btn-primary btn-sm">All Posts</button></a></li>
+        <li class="pull-right"><a href="/blog"><button class="btn bgm-{{site.colors.blog}}  btn-sm"><i class="zmdi zmdi-collection-text"></i> All Posts</button></a></li>
     </ul>
 </div>
 
@@ -375,7 +382,7 @@ menuGroup: Home
     </div>
 </div>
 
-<div class="row">
+<!--<div class="row">
 
     {% for post in site.posts %}
     <div class="col-sm-4">
@@ -411,7 +418,7 @@ menuGroup: Home
     </div>
     {% endfor %}
 
-</div>
+</div>-->
 
 <div class="home">
 
@@ -432,10 +439,10 @@ menuGroup: Home
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
-<ul class="tags">
+<!--<ul class="tags">
     {% for tag in site.tags %}
     {% assign t = tag | first %}
     {% assign posts = tag | last %}
     <li>{{t | downcase | replace:" ","-" }} has {{ posts | size }} posts</li>
     {% endfor %}
-</ul>
+</ul>-->
