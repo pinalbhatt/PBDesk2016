@@ -22,20 +22,21 @@
 
     
 
-    <link rel="stylesheet" href="/css/animate.min.css">
-    <link href="/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
-    <link href="/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/theme/material/css/animate.min.css">
+    <link href="/theme/material/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.css" rel="stylesheet">
+    <link href="/theme/material/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css" rel="stylesheet">
+    <link href="/theme/material/vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="/css/app.min.1.css">
-  <link rel="stylesheet" href="/css/app.min.2.css">
-  <link rel="stylesheet" href="/css/pbdesk.css">
+  <link rel="stylesheet" href="/theme/material/css/app.min.1.css">
+  <link rel="stylesheet" href="/theme/material/css/app.min.2.css">
+  <link rel="stylesheet" href="/theme/custom/css/pbdesk.css">
   <link rel="canonical" href="http://yourdomain.com/blog/dotnet/learning-f">
   <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://yourdomain.com/feed.xml">
 </head>
 
   <body>
-    <header id="header">
+    <header id="header" class="clearfix" data-current-skin="bluegray">
     <ul class="header-inner">
         <li id="menu-trigger" data-trigger="#sidebar">
             <div class="line-wrap">
@@ -57,13 +58,28 @@
                         <label for="tw-switch" class="ts-helper"></label>
                     </div>
                 </li>
+
                 <li id="top-search">
-                    <a class="tm-search" href=""></a>
+                    <a href=""><i class="tm-icon zmdi zmdi-search"></i></a>
                 </li>
 
+                <li>
+                    <a href="/feed.xml" target="_blank"><i class="tm-icon fa fa-rss"></i></a>
+                </li>
+
+
                 <li class="dropdown">
-                    <a data-toggle="dropdown" class="tm-settings" href=""></a>
+                    <a data-toggle="dropdown" href=""><i class="tm-icon zmdi zmdi-more-vert"></i></a>
                     <ul class="dropdown-menu dm-icon pull-right">
+                        <li class="skin-switch hidden-xs">
+                            <span class="ss-skin bgm-lightblue" data-skin="lightblue"></span>
+                            <span class="ss-skin bgm-bluegray" data-skin="bluegray"></span>
+                            <span class="ss-skin bgm-cyan" data-skin="cyan"></span>
+                            <span class="ss-skin bgm-teal" data-skin="teal"></span>
+                            <span class="ss-skin bgm-orange" data-skin="orange"></span>
+                            <span class="ss-skin bgm-blue" data-skin="blue"></span>
+                        </li>
+                        <!--<li class="divider hidden-xs"></li>
                         <li class="hidden-xs">
                             <a data-action="fullscreen" href=""><i class="zmdi zmdi-fullscreen"></i> Toggle Fullscreen</a>
                         </li>
@@ -75,37 +91,181 @@
                         </li>
                         <li>
                             <a href=""><i class="zmdi zmdi-settings"></i> Other Settings</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </li>
                 <li class="hidden-xs" id="chat-trigger" data-trigger="#chat">
-                    <a class="tm-chat" href=""></a>
-                </li>
+                    <a href=""><i class="tm-icon zmdi zmdi-comment-alt-text"></i></a>
                 </li>
             </ul>
+        </li>
+    </ul>
 
-            <!-- Top Search Content -->
-            <div id="top-search-wrap">
-                <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
-                    <input id="q" name="q" type="text" class="form-control" placeholder="Type to Search...">
-                </form>
-                <i id="top-search-close">&times;</i>
+
+    <!-- Top Search Content -->
+    <div id="top-search-wrap">
+        <div class="tsw-inner">
+            <i id="top-search-close" class="zmdi zmdi-arrow-left"></i>
+            <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
+                <input id="q" name="q" type="text" class="form-control" placeholder="Type to Search...">
+            </form>
+        </div>
+    </div>
+</header>
+    <section id="main" data-layout="layout-1">
+        <aside id="sidebar" class="sidebar c-overflow">
+    <div class="profile-menu">
+        <a href="">
+            <div class="profile-pic">
+                <img src="/theme/material/img/profile-pics/1.jpg" alt="">
             </div>
 
+            <div class="profile-info">
+                Malinda Hollaway
 
-</header>
-    <section id="main">
-        <aside id="sidebar">
+                <i class="zmdi zmdi-caret-down"></i>
+            </div>
+        </a>
+
+        <ul class="main-menu">
+            <li>
+                <a href="/about"><i class="zmdi zmdi-account"></i> About Me</a>
+            </li>
+            <li>
+                <a href=""><i class="zmdi zmdi-input-antenna"></i> Privacy Settings</a>
+            </li>
+            <li>
+                <a href=""><i class="zmdi zmdi-settings"></i> Settings</a>
+            </li>
+            <li>
+                <a href=""><i class="zmdi zmdi-time-restore"></i> Logout</a>
+            </li>
+        </ul>
+    </div>
+
+    <ul class="main-menu">
+        <li class="active">
+            <a href="index.html"><i class="zmdi zmdi-home"></i> Home</a>
+        </li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-view-compact"></i> Headers</a>
+
+            <ul>
+                <li><a href="textual-menu.html">Textual menu</a></li>
+                <li><a href="image-logo.html">Image logo</a></li>
+                <li><a href="top-mainmenu.html">Mainmenu on top</a></li>
+            </ul>
+        </li>
+        <li><a href="typography.html"><i class="zmdi zmdi-format-underlined"></i> Typography</a></li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-widgets"></i> Widgets</a>
+
+            <ul>
+                <li><a href="widget-templates.html">Templates</a></li>
+                <li><a href="widgets.html">Widgets</a></li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-view-list"></i> Tables</a>
+
+            <ul>
+                <li><a href="tables.html">Normal Tables</a></li>
+                <li><a href="data-tables.html">Data Tables</a></li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-collection-text"></i> Forms</a>
+
+            <ul>
+                <li><a href="form-elements.html">Basic Form Elements</a></li>
+                <li><a href="form-components.html">Form Components</a></li>
+                <li><a href="form-examples.html">Form Examples</a></li>
+                <li><a href="form-validations.html">Form Validation</a></li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-swap-alt"></i>User Interface</a>
+            <ul>
+                <li><a href="colors.html">Colors</a></li>
+                <li><a href="animations.html">Animations</a></li>
+                <li><a href="box-shadow.html">Box Shadow</a></li>
+                <li><a href="buttons.html">Buttons</a></li>
+                <li><a href="icons.html">Icons</a></li>
+                <li><a href="alerts.html">Alerts</a></li>
+                <li><a href="preloaders.html">Preloaders</a></li>
+                <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
+                <li><a href="media.html">Media</a></li>
+                <li><a href="components.html">Components</a></li>
+                <li><a href="other-components.html">Others</a></li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-trending-up"></i>Charts</a>
+            <ul>
+                <li><a href="flot-charts.html">Flot Charts</a></li>
+                <li><a href="other-charts.html">Other Charts</a></li>
+            </ul>
+        </li>
+        <li><a href="calendar.html"><i class="zmdi zmdi-calendar"></i> Calendar</a></li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-image"></i>Photo Gallery</a>
+            <ul>
+                <li><a href="photos.html">Default</a></li>
+                <li><a href="photo-timeline.html">Timeline</a></li>
+            </ul>
+        </li>
+
+        <li><a href="generic-classes.html"><i class="zmdi zmdi-layers"></i> Generic Classes</a></li>
+        <li class="sub-menu">
+            <a href=""><i class="zmdi zmdi-collection-item"></i> Sample Pages</a>
+            <ul>
+                <li><a href="profile-about.html">Profile</a></li>
+                <li><a href="list-view.html">List View</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li><a href="pricing-table.html">Pricing Table</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+                <li><a href="wall.html">Wall</a></li>
+                <li><a href="invoice.html">Invoice</a></li>
+                <li><a href="login.html">Login and Sign Up</a></li>
+                <li><a href="lockscreen.html">Lockscreen</a></li>
+                <li><a href="404.html">Error 404</a></li>
+            </ul>
+        </li>
+        <li class="sub-menu">
+            <a href="form-examples.html"><i class="zmdi zmdi-menu"></i> 3 Level Menu</a>
+
+            <ul>
+                <li><a href="form-elements.html">Level 2 link</a></li>
+                <li><a href="form-components.html">Another level 2 Link</a></li>
+                <li class="sub-menu">
+                    <a href="form-examples.html">I have children too</a>
+
+                    <ul>
+                        <li><a href="">Level 3 link</a></li>
+                        <li><a href="">Another Level 3 link</a></li>
+                        <li><a href="">Third one</a></li>
+                    </ul>
+                </li>
+                <li><a href="form-validations.html">One more 2</a></li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://wrapbootstrap.com/theme/material-admin-responsive-angularjs-WB011H985"><i class="zmdi zmdi-money"></i> Buy this template</a>
+        </li>
+    </ul>
+</aside>
+<!--
+<aside id="sidebar" class="sidebar c-overflow">
     <div class="sidebar-inner c-overflow">
         <div class="profile-menu">
             <a href="">
                 <div class="profile-pic">
-                    <img src="img/profile-pics/1.jpg" alt="">
+                    <img src="/img/profile-pics/1.jpg" alt="">
                 </div>
 
                 <div class="profile-info">
                     <span style="font-weight: bold">Pinal Bhatt</span>
-                    <i class="zmdi zmdi-arrow-drop-down"></i>
+                    <i class="zmdi zmdi-caret-down"></i>
                 </div>
             </a>
 
@@ -114,10 +274,13 @@
                     <a href="/about"><i class="zmdi zmdi-account"></i> About Me</a>
                 </li>
                 <li>
-                    <a href="/about/contact"><i class="zmdi zmdi-input-antenna"></i> Contact Me</a>
+                    <a href=""><i class="zmdi zmdi-input-antenna"></i> Privacy Settings</a>
                 </li>
                 <li>
-                    <a href="/Resume"><i class="zmdi zmdi-settings"></i> My Resume</a>
+                    <a href=""><i class="zmdi zmdi-settings"></i> Settings</a>
+                </li>
+                <li>
+                    <a href=""><i class="zmdi zmdi-time-restore"></i> Logout</a>
                 </li>
             </ul>
         </div>
@@ -127,9 +290,6 @@
                 
                     <li ><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
                 
-
-
-
             
                 
                     
@@ -148,9 +308,6 @@
                         </ul>
                     </li>
                 
-
-
-
             
                 
                     
@@ -173,16 +330,10 @@
                         </ul>
                     </li>
                 
-
-
-
             
                 
                     <li ><a href="/people"><i class=""></i> People</a></li>
                 
-
-
-
             
                 
                     
@@ -201,9 +352,6 @@
                         </ul>
                     </li>
                 
-
-
-
             
                 
                     
@@ -222,9 +370,6 @@
                         </ul>
                     </li>
                 
-
-
-
             
                 
                     
@@ -243,91 +388,13 @@
                         </ul>
                     </li>
                 
-
-
-
             
-            <!--<li class="active"><a href="/"><i class="zmdi zmdi-home"></i> Home</a></li>
-            <li><a href="typography.html"><i class="zmdi zmdi zmdi-format-underlined"></i> Typography</a></li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-widgets"></i> Widgets</a>
 
-                <ul>
-                    <li><a href="widget-templates.html">Templates</a></li>
-                    <li><a class="active" href="widgets.html">Widgets</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-view-list"></i> Tables</a>
-
-                <ul>
-                    <li><a href="tables.html">Normal Tables</a></li>
-                    <li><a href="data-tables.html">Data Tables</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-collection-text"></i> Forms</a>
-
-                <ul>
-                    <li><a href="form-elements.html">Basic Form Elements</a></li>
-                    <li><a href="form-components.html">Form Components</a></li>
-                    <li><a href="form-examples.html">Form Examples</a></li>
-                    <li><a href="form-validations.html">Form Validation</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-swap-alt"></i>User Interface</a>
-                <ul>
-                    <li><a href="colors.html">Colors</a></li>
-                    <li><a href="animations.html">Animations</a></li>
-                    <li><a href="box-shadow.html">Box Shadow</a></li>
-                    <li><a href="buttons.html">Buttons</a></li>
-                    <li><a href="icons.html">Icons</a></li>
-                    <li><a href="alerts.html">Alerts</a></li>
-                    <li><a href="notification-dialog.html">Notifications & Dialogs</a></li>
-                    <li><a href="media.html">Media</a></li>
-                    <li><a href="components.html">Components</a></li>
-                    <li><a href="other-components.html">Others</a></li>
-                </ul>
-            </li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-trending-up"></i>Charts</a>
-                <ul>
-                    <li><a href="flot-charts.html">Flot Charts</a></li>
-                    <li><a href="other-charts.html">Other Charts</a></li>
-                </ul>
-            </li>
-            <li><a href="calendar.html"><i class="zmdi zmdi-calendar"></i> Calendar</a></li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-image"></i>Photo Gallery</a>
-                <ul>
-                    <li><a href="photos.html">Default</a></li>
-                    <li><a href="photo-timeline.html">Timeline</a></li>
-                </ul>
-            </li>
-
-            <li><a href="generic-classes.html"><i class="zmdi zmdi-layers"></i> Generic Classes</a></li>
-            <li class="sub-menu">
-                <a href=""><i class="zmdi zmdi-collection-item"></i> Sample Pages</a>
-                <ul>
-
-                    <li><a href="profile-about.html">Profile</a></li>
-                    <li><a href="list-view.html">List View</a></li>
-                    <li><a href="messages.html">Messages</a></li>
-                    <li><a href="pricing-table.html">Pricing Table</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
-                    <li><a href="wall.html">Wall</a></li>
-                    <li><a href="invoice.html">Invoice</a></li>
-                    <li><a href="login.html">Login and Sign Up</a></li>
-                    <li><a href="lockscreen.html">Lockscreen</a></li>
-                    <li><a href="404.html">Error 404</a></li>
-
-                </ul>
-            </li>-->
         </ul>
     </div>
-</aside>
-        <aside id="chat">
+</aside>-->
+
+        <aside id="chat" class="sidebar c-overflow">
     <div class="chat-search">
         <div class="fg-line">
             <form class="form-inline" id="searchbox_018357529685918148409:yisztkdsrj8" action="/Search">
@@ -618,62 +685,6 @@
             <div class="row">
 
             
-            <div class="col-sm-4">
-                <div class="card z-depth-4">
-    <div class="card-body card-padding bgm-cyan c-white">
-        <a href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a>
-        <p><small>Dec 1, 2015</small></p>
-        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
-    </div>
-    <ul class="list-unstyled clearfix wpb-actions">
-        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">blog</a></li>
-        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
-    </ul>
-</div>
-            </div>
-            
-            <div class="col-sm-4">
-                <div class="card z-depth-4">
-    <div class="card-body card-padding bgm-cyan c-white">
-        <a href="/ebooks/Introducing-Windows-10-for-IT-Professionals">Introducing Windows 10 for IT Professionals</a>
-        <p><small>Jul 17, 2015</small></p>
-        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
-    </div>
-    <ul class="list-unstyled clearfix wpb-actions">
-        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">eBooks</a></li>
-        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
-    </ul>
-</div>
-            </div>
-            
-            <div class="col-sm-4">
-                <div class="card z-depth-4">
-    <div class="card-body card-padding bgm-cyan c-white">
-        <a href="/people/Ed-Bott">Ed Bott</a>
-        <p><small>Jul 17, 2015</small></p>
-        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
-    </div>
-    <ul class="list-unstyled clearfix wpb-actions">
-        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">People</a></li>
-        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
-    </ul>
-</div>
-            </div>
-            
-            <div class="col-sm-4">
-                <div class="card z-depth-4">
-    <div class="card-body card-padding bgm-cyan c-white">
-        <a href="/ebooks/Windows-8-1-Succinctly">Windows 8.1 Succinctly</a>
-        <p><small>Jun 22, 2015</small></p>
-        <small><i class="fa fa-tags"></i> <ul class="ptaglist"></ul></small>
-    </div>
-    <ul class="list-unstyled clearfix wpb-actions">
-        <li ><i class="fa fa-bookmark"></i> <a href="/blog" class="catNameStyle">eBooks</a></li>
-        <li class="pull-right"><a href="/ebooks"><button class="btn bgm-blue btn-icon waves-effect waves-circle waves-float z-depth-4"><i class="zmdi zmdi-mail-send"></i></button></a></li>
-    </ul>
-</div>
-            </div>
-            
 
         </div>
         </div>
@@ -687,9 +698,8 @@
 </article>
 
 
-                <div class="card">
-                    <div class="card-body card-padding">
-                        <!-- PBDeskIO-Responsive2 -->
+                <div class="card adcard">
+                    <!-- PBDeskIO-Responsive2 -->
 <ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-4686631795727964"
@@ -698,7 +708,6 @@
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-                    </div>
                 </div>
             </div>
         </section>
@@ -764,20 +773,19 @@
     <!-- Javascript Libraries -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
-
-<script src="/vendors/bower_components/jquery.nicescroll/jquery.nicescroll.min.js"></script>
-<script src="/vendors/bower_components/Waves/dist/waves.min.js"></script>
-<script src="/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
-<script src="/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<script src="/theme/material/vendors/bower_components/Waves/dist/waves.min.js"></script>
+<script src="/theme/material/vendors/bootstrap-growl/bootstrap-growl.min.js"></script>
+<script src="/theme/material/vendors/bower_components/bootstrap-sweetalert/lib/sweet-alert.min.js"></script>
+<script src="/theme/material/vendors/bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 
 <!-- Placeholder for IE9 -->
 <!--[if IE 9 ]>
-<script src="/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
+<script src="/theme/material/vendors/bower_components/jquery-placeholder/jquery.placeholder.min.js"></script>
 <![endif]-->
 
-<script src="/js/moment.min.js"></script>
-<script src="/js/functions.js"></script>
-<script src="/js/demo.js"></script>
+
+<script src="/theme/material/js/functions.js"></script>
+
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53da632a1cf7b239" async="async"></script>
 <script>

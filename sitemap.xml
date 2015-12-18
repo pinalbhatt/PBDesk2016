@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://yourdomain.com/</loc>
-    <lastmod>2015-12-04T17:25:25-05:00</lastmod>
+    <lastmod>2015-12-18T17:25:35-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -1773,6 +1773,13 @@
   </url>
   
   <url>
+    <loc>http://yourdomain.com/Pinal-Bhatt/Resume/Access</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yourdomain.com/about/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -1787,14 +1794,14 @@
   </url>
   
   <url>
-    <loc>http://yourdomain.com/eBooks/</loc>
+    <loc>http://yourdomain.com/About/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yourdomain.com/eBooks/Recent/</loc>
+    <loc>http://yourdomain.com/eBooks/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1808,14 +1815,21 @@
   </url>
   
   <url>
-    <loc>http://yourdomain.com/Disclaimer/</loc>
+    <loc>http://yourdomain.com/eBooks/Recent/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://yourdomain.com/</loc>
+    <loc>http://yourdomain.com/Pinal-Bhatt/Resume/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Search/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -1829,7 +1843,14 @@
   </url>
   
   <url>
-    <loc>http://yourdomain.com/Search/</loc>
+    <loc>http://yourdomain.com/</loc>
+    <lastmod>2015-04-22T02:00:01-04:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourdomain.com/Disclaimer/</loc>
     <lastmod>2015-04-22T02:00:01-04:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

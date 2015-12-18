@@ -1,0 +1,31 @@
+<div class="pmb-block">
+    <div class="pmbb-header">
+        <h1 class="CText">Pinal Bhatt</h1>
+        <h4 class="CText">Software Engineer</h4>
+        <br/>
+        <h2 class="CText">Techie's Resume should be in <b>Techie</b><em>Style</em>.</h2>
+        <p class="CText">Please enter the code to access my Resume Or  <a href="#/Request">request access code</a></p>
+        <br/>
+    </div>
+
+    <div class="pmbb-body p-l-30">
+        <form class="row" role="form">
+            <div class="col-sm-4">&nbsp;</div>
+            <div class="col-sm-3">
+                <div class="form-group fg-float">
+                    <div class="fg-line m-t-15">
+                        <input type="text" class="input-sm form-control fg-input" ng-model="data.accessCode">
+                        <label class="fg-label">Access Code</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <button ng-disabled="data.accessCode===''" type="submit" class="btn btn-primary btn-icon btn-lg waves-effect waves-circle waves-float m-t-5" ng-click="verifyAccessCode()"><i class="zmdi zmdi-mail-send"></i></button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+
