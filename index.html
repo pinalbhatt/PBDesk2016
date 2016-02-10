@@ -1,122 +1,738 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 7]>
+<html class="no-js ie7 oldie" lang="en-US"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
 
-  <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TITLE OF SITE-->
+<title> PBDesk.com </title>
 
-  <title>Pinal Bhatt&#39;s Blog</title>
-  <meta name="description" content="Learning endeavor for ever...from the desk of Pinal Bhatt 
-">
-   <meta name="author" content="">
-   
-  <link rel="stylesheet" href="/css/main.css">
-  <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha256-Ucf/ylcKTNevYP6l7VNUhGLDRZPQs1+LsbbxuzMxUJM= sha512-FW2XqnqMwERwg0LplG7D64h8zA1BsxvxrDseWpHLq8Dg8kOBmLs19XNa9oAajN/ToJRRklfDJ398sOU+7LcjZA==" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
-  <link rel="stylesheet" href="/assets/css/custom.css">
-  <link rel="canonical" href="http://yourdomain.com/">
-  <link rel="alternate" type="application/rss+xml" title="Pinal Bhatt's Blog" href="http://yourdomain.com/feed.xml">
-  
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
+<!-- META TAG -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="CV, Portfolio, Resume">
+<meta name="author" content="Pinal Bhatt">
+
+<!-- FAVICON -->
+<link rel="icon" href="assets/material/images/favicon.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="assets/material/images/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="assets/material/images/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="assets/material/images/apple-icon-114x114.png">
+
+<!-- ========================================
+        Stylesheets
+==========================================-->
+
+<!-- MATERIALIZE CORE CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+<link rel="stylesheet" href="assets/material/css/animate.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700,400italic,700 italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<link href="assets/material/css/style.css" rel="stylesheet">
+<link href="assets/material/css/responsive.css" rel="stylesheet">
+
+<!-- COLORS: red line purple orange green  -->
+<link rel="stylesheet" href="assets/material/css/colors/green.css" title="lime">
+<link href="assets/material/css/pbdesk.css" rel="stylesheet">
+
+<!--[if lt IE 9]><script src="assets/material/js/ie8-responsive-file-warning.js"></script><![endif] -->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+
 </head>
-
-
-  <body>
-
-        <div class="navbar navbar-default navbar-fixed-top topnav-border">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="/" class="navbar-brand">PBDesk.com</a>
-          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">This Site <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                <li class="divider"></li>
-                <li><a href="../cerulean/">My Posts</a></li>
-                <li><a href="../cosmo/">Gists</a></li>
-                <li><a href="../cyborg/">eBooks</a></li>
-                <li><a href="../darkly/">Tutorial</a></li>
-                  <li class="divider"></li>
-                  <li><a href="../darkly/">RSS</a></li>
-                  <li><a href="../darkly/">SiteMap</a></li>
-                  <li><a href="../darkly/"> Disclaimer</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">About <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-                <li><a href="http://jsfiddle.net/bootswatch/9y480qo5/"><i class="fa fa-user"></i> About Me</a></li>
-                  <li><a href="http://jsfiddle.net/bootswatch/9y480qo5/"><i class="fa fa-send"></i> Contact Me</a></li>
-                  <li><a href="http://jsfiddle.net/bootswatch/9y480qo5/"><i class="fa fa-graduation-cap"></i>  My Resume</a></li>
-                <li class="divider"></li>
-                <li class="menuHeadText">Follow Me</li>
-                <li><a href="./bootstrap.min.css"><i class="fa fa-facebook pull-right"></i>Facebook</a></li>
-                  <li><a href="./bootstrap.min.css"><i class="fa fa-twitter pull-right"></i> Twitter</a></li>
-                  <li><a href="./bootstrap.min.css"><i class="fa fa-linkedin pull-right"></i> LinkedIN</a></li>
-                  <li><a href="./bootstrap.min.css"><i class="fa fa-google-plus pull-right"></i> Google+</a></li>
-                  <li><a href="./bootstrap.min.css"><i class="fa fa-github pull-right"></i> Github</a></li>
-
-                <li class="divider"></li>
-                  <li class="menuHeadText">My Other Sites</li>
-                <li><a href="./variables.less">RoKen</a></li>
-                <li><a href="./bootswatch.less">KenKen</a></li>
-              </ul>
-            </li>
-          </ul>
-
-        </div>
-      </div>
-    </div>
-
-
-
-    <div class="container">
-
+<body>
+<div class="container">
     <div class="row">
-        <div class="col-sm-8">
-            <div class="blog-header">
-                <h1 class="blog-title">Pinal Bhatt's Blog</h1>
-                <p class="lead blog-description">Learning endeavor for ever...</p>
+        <aside class="col l4 m12 s12 sidebar z-depth-1" id="sidebar">
+    <div class="row">
+        <div class="heading">
+    <!-- ======================================
+              IMAGE
+    =========================================-->
+    <div class="feature-img">
+        <a href="index.html"><img src="assets/material/images/profile-img.jpg" class="responsive-img" alt=""></a>
+    </div>
+    <!-- =========================================
+               NAVIGATION
+    ==========================================-->
+    <div class=" nav-icon">
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="index.html">Resume</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="cover-latter.html">Cover Latter</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse  "><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </nav>
+    </div>
+    <!-- ========================================
+               NAME AND TAGLINE
+    ==========================================-->
+    <div class="title col s12 m12 l9 right  wow fadeIn" data-wow-delay="0.1s">
+        <h2>Pinal Bhatt's Blog</h2> <!-- title name -->
+        <h5>Learning endeavor for ever...</h5>  <!-- tagline -->
+    </div>
+</div>
+
+        <div class="col l12 m12 s12  mobile sidebar-item">
+    <div class="row">
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-user"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">Pinal Bhatt</a></h4> <!-- Number -->
+                    <span>Software Engineer <br/>always on learning ramp</span>
+                </div>
+                <div class="work">
+                    <div class="social">
+                        <a target="_blank" class="twitter" href="http://twitter.com/PBDesk">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a target="_blank" class="facebook" href="https://www.facebook.com/Go.PBDesk">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                        <a target="_blank" class="google-plus" href="https://plus.google.com/+Pbdesk">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
+                        <a target="_blank" class="linkedin" href="http://www.linkedin.com/in/pinalbhatt">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" class="pinterest" href="https://github.com/PBDesk">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-sm-4">
-            <div class="AdPlace hidden-xs hidden-sm">
-                <!-- PBDeskIOBlog-180x150 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:180px;height:150px"
-     data-ad-client="ca-pub-4686631795727964"
-     data-ad-slot="2637631941"></ins>
-<script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-            </div>
+    </div>
+</div>
 
+        <div class="col l12 m12 s12  sidebar-item hide-on-med-and-down">
+    <div class="row">
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-user-secret"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" style="border-bottom: none !important;" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">About Me</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-send"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s"  style="border-bottom: none !important;">
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">Contact Me</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-rss-square"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">Subscribe Rss</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="col l12 m12 s12 sidebar-item hide-on-med-and-down">
+    <div class="row">
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-file-text-o"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" style="border-bottom: none !important;" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">My Posts</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-file-code-o"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s"  style="border-bottom: none !important;">
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">Gists</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-book"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s"  style="border-bottom: none !important;">
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">eBooks</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-laptop"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">Tutorials</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="col l12 m12 s12  sidebar-item hide-on-med-and-down">
+    <div class="row">
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-graduation-cap"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" style="border-bottom: none !important;" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">My Resume</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-th"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s"  style="border-bottom: none !important;">
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">Kenken</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+        <div class="col m12 s12 l3 icon">
+            <i class="fa fa-rocket"></i> <!-- icon -->
+        </div>
+        <div class="col m12 s12 l9 info wow fadeIn a2" data-wow-delay="0.2s" >
+            <div class="section-item-details">
+                <div class="personal">
+                    <h4><a href="tel:555-555-5555">RoKen</a></h4> <!-- Number -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- SKILLS -->
+        <div class="col l12 m12 s12  skills sidebar-item" >
+            <div class="row">
+                <div class="col m12 l3 s12 icon">
+                    <i class="fa fa-calendar-o"></i> <!-- icon -->
+                </div>
+                <!-- Skills -->
+                <div class="col m12 l9 s12 skill-line a5 wow fadeIn" data-wow-delay="0.5s">
+                    <h3>Featured </h3>
+
+                    <span>Adobe Photoshop</span>
+                    <div class="progress">
+                        <div class="determinate"> 70% </div>
+                    </div>
+
+                    <span>HTML</span>
+                    <div class="progress">
+                        <div class="determinate"> 95%</div>
+                    </div>
+
+                    <span>CSS</span>
+                    <div class="progress">
+                        <div class="determinate">90%</div>
+                    </div>
+
+                    <span>Javascript</span>
+                    <div class="progress">
+                        <div class="determinate">85%</div>
+                    </div>
+
+                    <span>PHP</span>
+                    <div class="progress">
+                        <div class="determinate">70%</div>
+                    </div>
+
+                    <span>JAVA</span>
+                    <div class="progress">
+                        <div class="determinate">55%</div>
+                    </div>
+
+                    <span>SQL</span>
+                    <div class="progress">
+                        <div class="determinate">40%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
+
+
+
+<!-- =========================================
+   Work experiences
+==========================================-->
+
+<section class="col s12 m12 l8 section">
+    <div class="row">
+        <div class="section-wrapper z-depth-1">
+            <div class="section-icon col s12 m12 l2">
+                <i class="fa fa-home"></i>
+            </div>
+            <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s">
+
+
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" style="margin-top: 25px">
+
+                    <p>Hi Everyone! I'm Pinal Bhatt and Welcome to My Desk! On this site you'll find interesting posts, articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#, VB.Net, Silverlight, WPF, Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, MongoDB, Mocha,Design Patterns, Social Media, Mobiles, Science & Technology and other random thoughts and opinions.</p>
+                    <p>I created this site to narrate my coding and technology learning experiences. I like sharing my experiments, ideas and experience with everyone by writing articles on latest technological trends. I feel pleased and pride by sharing my knowledge and information that I have gained via Internet. And this site is my heartily attempt towards this.</p>
+                </div>
+                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.3s">
+                    <h3><a href="#" class="a-c">eBooks</a></h3>
+                    <p>one of the basic source of Knowledge in digital format</p>
+                </div>
+                <div class="custom-content-wrapper wow fadeIn a3" data-wow-delay="0.3s">
+                    <h3><a href="#" class="a-c">Gists</a></h3>
+                    <p>Sharing Code Snippets</p>
+                </div>
+                <div class="custom-content-wrapper wow fadeIn a4" data-wow-delay="0.4s">
+                    <h3><a href="#" class="a-c">Tutorials</a></h3>
+
+                    <p>free online tutorials and videos for self learning </p>
+                </div>
+            </div>
         </div>
 
-    </div>
+        <!-- ========================================
+         Education
+        ==========================================-->
+
+        <div class="section-wrapper z-depth-1">
+            <div class="section-icon col s12 m12 l2">
+                <i class="fa fa-file-text-o"></i>
+            </div>
+            <div class="custom-content col s12 m12 l10 wow fadeIn a1" data-wow-delay="0.1s" >
+                <h2>Featured Posts </h2>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/ebooks/Introducing-Windows-10-for-IT-Professionals">Introducing Windows 10 for IT Professionals</a></h3>
+                    <span>Jul 17, 2015 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/ebooks/ASPNET-MVC-Succinctly">ASP.NET MVC Succinctly</a></h3>
+                    <span>Jun 19, 2015 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/ebooks/build-your-first-node-js-app">Build Your First NodeJS App</a></h3>
+                    <span>Jun 8, 2015 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/tutorial/jade-video-tuotrial">Jade Video Tutorial</a></h3>
+                    <span>Apr 22, 2015 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a></h3>
+                    <span>Apr 18, 2015 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/mvc6/asp-net-vnext-mvc-6-videos">ASP.Net vNext MVC 6 Videos</a></h3>
+                    <span>Nov 11, 2014 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/programming/asp-net-mvc-6-whats-new">ASP.Net MVC 6 - Whats New?</a></h3>
+                    <span>Nov 5, 2014 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/nodejs/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a></h3>
+                    <span>Aug 24, 2014 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/programming/realm-package-managers">Realm of Package Managers</a></h3>
+                    <span>Aug 15, 2014 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio">Getting started: Website in Node.JS With Express, Jade & Stylus using Node.js Tools for Visual Studio</a></h3>
+                    <span>Aug 8, 2014 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <h3><a class="a-c" href="/blog/angularjs/angularjs-really-superheroic-javascipt">AngularJS – Really SuperHeroic JavaScipt</a></h3>
+                    <span>May 10, 2013 </span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                <div class="custom-content-wrapper wow fadeIn a2" data-wow-delay="0.2s" >
+                    <div><a class="a-c pull-right" href="">...More.. <i class="fa fa-arrow-circle-right"></i></a></div>
+                </div>
+            </div>
+        </div>
 
 
-    <div class="row">
 
-        <div class="col-sm-8 blog-main">
 
-            <div class="page-content">
-                <div class="wrapper">
-                    <div class="home">
+        <div class="section-wrapper z-depth-1 wow fadeIn" data-wow-delay="0.1s">
+            <div class="col s12 m12 l10 website right" >
+                <div class="row">
+                    <div class="col s12 m12 l6">
+                        <!--
+<div class="home">
 
     <h1 class="page-heading">Posts</h1>
 
@@ -126,1431 +742,1492 @@
             <span class="post-meta">Feb 4, 2016</span>
 
             <h2>
-          <a class="post-link" href="/blog/jekyll/update/welcome-to-jekyll">Welcome to Jekyll!</a>
-        </h2>
+                <a class="post-link" href="/blog/jekyll/update/welcome-to-jekyll">Welcome to Jekyll!</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 4, 2016</span>
 
             <h2>
-          <a class="post-link" href="/jekyll/update/welcome-to-jekyll">Welcome to Jekyll!</a>
-        </h2>
+                <a class="post-link" href="/jekyll/update/welcome-to-jekyll">Welcome to Jekyll!</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 1, 2015</span>
 
             <h2>
-          <a class="post-link" href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a>
-        </h2>
+                <a class="post-link" href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a>
+            </h2>
+            <span><a href="/tag/something">something</a> </span><span><a href="/tag/ASP.Net">ASP.Net</a> </span><span><a href="/tag/sampleTag">sampleTag</a> </span><span><a href="/tag/Jekyll">Jekyll</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jul 17, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Introducing-Windows-10-for-IT-Professionals">Introducing Windows 10 for IT Professionals</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Introducing-Windows-10-for-IT-Professionals">Introducing Windows 10 for IT Professionals</a>
+            </h2>
+            <span><a href="/tag/Windows10">Windows10</a> </span><span><a href="/tag/eBook">eBook</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 22, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Windows-8-1-Succinctly">Windows 8.1 Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Windows-8-1-Succinctly">Windows 8.1 Succinctly</a>
+            </h2>
+            <span><a href="/tag/Win8">Win8</a> </span><span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 22, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/More-Windows-8-1-Succinctly">More Windows 8.1 Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/More-Windows-8-1-Succinctly">More Windows 8.1 Succinctly</a>
+            </h2>
+            <span><a href="/tag/Win8">Win8</a> </span><span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 19, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/OWIN-Succinctly">OWIN Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/OWIN-Succinctly">OWIN Succinctly</a>
+            </h2>
+            <span><a href="/tag/OWIN">OWIN</a> </span><span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/DotNet">DotNet</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 19, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Message-Queuing-with-RabbitMQ-Succinctly">Message Queuing with RabbitMQ Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Message-Queuing-with-RabbitMQ-Succinctly">Message Queuing with RabbitMQ Succinctly</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 19, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/ASPNET-MVC-Succinctly">ASP.NET MVC Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/ASPNET-MVC-Succinctly">ASP.NET MVC Succinctly</a>
+            </h2>
+            <span><a href="/tag/AspNet">AspNet</a> </span><span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/MVC">MVC</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 14, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Your-First-Meteor-Application">Your First Meteor Application</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Your-First-Meteor-Application">Your First Meteor Application</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/MeteorJS">MeteorJS</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 8, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/build-your-first-node-js-app">Build Your First NodeJS App</a>
-        </h2>
+                <a class="post-link" href="/ebooks/build-your-first-node-js-app">Build Your First NodeJS App</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/ScotchIO">ScotchIO</a> </span><span><a href="/tag/NodeJS">NodeJS</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/jQuery-Succinctly">jQuery Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/jQuery-Succinctly">jQuery Succinctly</a>
+            </h2>
+            <span><a href="/tag/JavaScript">JavaScript</a> </span><span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Succinctly-Objective-C">Objective-C Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Succinctly-Objective-C">Objective-C Succinctly</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span><span><a href="/tag/Objective-c">Objective-c</a> </span><span><a href="/tag/Programming">Programming</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/LINQ-Succinctly">LINQ Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/LINQ-Succinctly">LINQ Succinctly</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span><span><a href="/tag/Programming">Programming</a> </span><span><a href="/tag/CSharp">CSharp</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Git-Succinctly">Git Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Git-Succinctly">Git Succinctly</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span><span><a href="/tag/git">git</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/CSS3-Succinctly">CSS3 Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/CSS3-Succinctly">CSS3 Succinctly</a>
+            </h2>
+            <span><a href="/tag/CSS3">CSS3</a> </span><span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/WebDesigning">WebDesigning</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Apache-Solr-Succinctly">Apache Solr Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Apache-Solr-Succinctly">Apache Solr Succinctly</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jun 3, 2015</span>
 
             <h2>
-          <a class="post-link" href="/ebooks/Accounting-Succinctly">Accounting Succinctly</a>
-        </h2>
+                <a class="post-link" href="/ebooks/Accounting-Succinctly">Accounting Succinctly</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Succinctly">Succinctly</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Apr 22, 2015</span>
 
             <h2>
-          <a class="post-link" href="/blog/tutorial/jade-video-tuotrial">Jade Video Tutorial</a>
-        </h2>
+                <a class="post-link" href="/blog/tutorial/jade-video-tuotrial">Jade Video Tutorial</a>
+            </h2>
+            <span><a href="/tag/Jade">Jade</a> </span><span><a href="/tag/NodeJS">NodeJS</a> </span><span><a href="/tag/Tutorial">Tutorial</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Apr 21, 2015</span>
 
             <h2>
-          <a class="post-link" href="/blog/archives/post-template">Template for creating post</a>
-        </h2>
+                <a class="post-link" href="/blog/archives/post-template">Template for creating post</a>
+            </h2>
+            <span><a href="/tag/MyProject">MyProject</a> </span><span><a href="/tag/Jekyll">Jekyll</a> </span><span><a href="/tag/HTML5">HTML5</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Apr 20, 2015</span>
 
             <h2>
-          <a class="post-link" href="/blog/jekyll/Moving-My-Blog-To-Jekyll">Moving my blog to Jekyll!</a>
-        </h2>
+                <a class="post-link" href="/blog/jekyll/Moving-My-Blog-To-Jekyll">Moving my blog to Jekyll!</a>
+            </h2>
+            <span><a href="/tag/Jekyll">Jekyll</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Apr 18, 2015</span>
 
             <h2>
-          <a class="post-link" href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a>
-        </h2>
+                <a class="post-link" href="/blog/jekyll/welcome-to-jekyll">Welcome to Jekyll!</a>
+            </h2>
+            <span><a href="/tag/Jekyll">Jekyll</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Nov 11, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/mvc6/asp-net-vnext-mvc-6-videos">ASP.Net vNext MVC 6 Videos</a>
-        </h2>
+                <a class="post-link" href="/blog/mvc6/asp-net-vnext-mvc-6-videos">ASP.Net vNext MVC 6 Videos</a>
+            </h2>
+            <span><a href="/tag/ASP.Net">ASP.Net</a> </span><span><a href="/tag/MVC">MVC</a> </span><span><a href="/tag/MVC6">MVC6</a> </span><span><a href="/tag/WebAPI">WebAPI</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Nov 5, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/asp-net-mvc-6-whats-new">ASP.Net MVC 6 - Whats New?</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/asp-net-mvc-6-whats-new">ASP.Net MVC 6 - Whats New?</a>
+            </h2>
+            <span><a href="/tag/ASP.Net">ASP.Net</a> </span><span><a href="/tag/Microsoft">Microsoft</a> </span><span><a href="/tag/MVC">MVC</a> </span><span><a href="/tag/MVC6">MVC6</a> </span><span><a href="/tag/WebAPI">WebAPI</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Sep 20, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/c-code-snippet-send-email">C# Code Snippet to Send Email</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/c-code-snippet-send-email">C# Code Snippet to Send Email</a>
+            </h2>
+            <span><a href="/tag/CSharp">CSharp</a> </span><span><a href="/tag/CodeSnippet">CodeSnippet</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Aug 24, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/nodejs/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a>
-        </h2>
+                <a class="post-link" href="/blog/nodejs/unit-testing-node-js-with-mocha">Unit Testing Node.JS With Mocha</a>
+            </h2>
+            <span><a href="/tag/JavaScript">JavaScript</a> </span><span><a href="/tag/NodeJS">NodeJS</a> </span><span><a href="/tag/Programming">Programming</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Aug 15, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/realm-package-managers">Realm of Package Managers</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/realm-package-managers">Realm of Package Managers</a>
+            </h2>
+            <span><a href="/tag/Programming">Programming</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Aug 8, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio">Getting started: Website in Node.JS With Express, Jade & Stylus using Node.js Tools for Visual Studio</a>
-        </h2>
+                <a class="post-link" href="/blog/nodejs/getting-started-website-node-js-express-jade-stylus-using-node-js-tools-visual-studio">Getting started: Website in Node.JS With Express, Jade & Stylus using Node.js Tools for Visual Studio</a>
+            </h2>
+            <span><a href="/tag/Express">Express</a> </span><span><a href="/tag/Jade">Jade</a> </span><span><a href="/tag/NodeJS">NodeJS</a> </span><span><a href="/tag/NTVS">NTVS</a> </span><span><a href="/tag/VS2013">VS2013</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jul 5, 2014</span>
 
             <h2>
-          <a class="post-link" href="/blog/nodejs/nodejs-news-update">Node.JS: Tutorials & Resources</a>
-        </h2>
+                <a class="post-link" href="/blog/nodejs/nodejs-news-update">Node.JS: Tutorials & Resources</a>
+            </h2>
+            <span><a href="/tag/NodeJS">NodeJS</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Dec 24, 2013</span>
 
             <h2>
-          <a class="post-link" href="/blog/myprojects/rewriting-pbdesk-com">ReWriting PBDesk.com</a>
-        </h2>
+                <a class="post-link" href="/blog/myprojects/rewriting-pbdesk-com">ReWriting PBDesk.com</a>
+            </h2>
+            <span><a href="/tag/AngularJS">AngularJS</a> </span><span><a href="/tag/MVC">MVC</a> </span><span><a href="/tag/PBDesk">PBDesk</a> </span><span><a href="/tag/Umbraco">Umbraco</a> </span><span><a href="/tag/WebAPI">WebAPI</a> </span>
         </li>
         
         <li>
             <span class="post-meta">May 10, 2013</span>
 
             <h2>
-          <a class="post-link" href="/blog/angularjs/angularjs-really-superheroic-javascipt">AngularJS – Really SuperHeroic JavaScipt</a>
-        </h2>
+                <a class="post-link" href="/blog/angularjs/angularjs-really-superheroic-javascipt">AngularJS – Really SuperHeroic JavaScipt</a>
+            </h2>
+            <span><a href="/tag/AngularJS">AngularJS</a> </span><span><a href="/tag/JavaScript">JavaScript</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jan 7, 2013</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/javascript-random-number-between-two-integers">Javascript: Random Number between two integers</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/javascript-random-number-between-two-integers">Javascript: Random Number between two integers</a>
+            </h2>
+            <span><a href="/tag/code snippet">code snippet</a> </span><span><a href="/tag/gist">gist</a> </span><span><a href="/tag/JavaScript">JavaScript</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Aug 23, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/microsoft/net-4-5-vs2012-windows-8-released">.Net 4.5, VS2012 & Windows 8 Released</a>
-        </h2>
+                <a class="post-link" href="/blog/microsoft/net-4-5-vs2012-windows-8-released">.Net 4.5, VS2012 & Windows 8 Released</a>
+            </h2>
+            <span><a href="/tag/DotNet">DotNet</a> </span><span><a href="/tag/DotNet45">DotNet45</a> </span><span><a href="/tag/ASP.Net">ASP.Net</a> </span><span><a href="/tag/EntityFramework">EntityFramework</a> </span><span><a href="/tag/Microsoft">Microsoft</a> </span><span><a href="/tag/MVC">MVC</a> </span><span><a href="/tag/VisualStudio">VisualStudio</a> </span><span><a href="/tag/WebAPI">WebAPI</a> </span><span><a href="/tag/Windows8">Windows8</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Aug 10, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/featured/sqlite-browsers-explorers-admin-gui-tools">SQLite Browsers, Explorers, Admin GUI Tools</a>
-        </h2>
+                <a class="post-link" href="/blog/featured/sqlite-browsers-explorers-admin-gui-tools">SQLite Browsers, Explorers, Admin GUI Tools</a>
+            </h2>
+            <span><a href="/tag/SQLite">SQLite</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Aug 10, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/windows8/using-sqlite-with-winrt-metro-windows-8-mobile">Using SQLite With  WinRT, Metro, Windows 8 Mobile</a>
-        </h2>
+                <a class="post-link" href="/blog/windows8/using-sqlite-with-winrt-metro-windows-8-mobile">Using SQLite With  WinRT, Metro, Windows 8 Mobile</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Aug 7, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername">INotifyPropertyChanged - The .NET 4.5 Way. CallerMemberName</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/inotifypropertychanged-the-net-4-5-way-callermembername">INotifyPropertyChanged - The .NET 4.5 Way. CallerMemberName</a>
+            </h2>
+            <span><a href="/tag/DotNet45">DotNet45</a> </span><span><a href="/tag/CSharp">CSharp</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Jul 17, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/asp.net/route-constraints-with-asp-net-mvc-webapi">Route Constraints With ASP.Net MVC & WebAPI</a>
-        </h2>
+                <a class="post-link" href="/blog/asp.net/route-constraints-with-asp-net-mvc-webapi">Route Constraints With ASP.Net MVC & WebAPI</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 15, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/ebook/free-ebooks-jquery-metro-apps">Free eBooks: jQuery & Metro Apps</a>
-        </h2>
+                <a class="post-link" href="/blog/ebook/free-ebooks-jquery-metro-apps">Free eBooks: jQuery & Metro Apps</a>
+            </h2>
+            <span><a href="/tag/eBook">eBook</a> </span><span><a href="/tag/Windows8">Windows8</a> </span><span><a href="/tag/jQuery">jQuery</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Feb 10, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/c-extension-methods-i-love-them">C# Extension Methods – I Love Them!!!!</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/c-extension-methods-i-love-them">C# Extension Methods – I Love Them!!!!</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 1, 2012</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/programming/c-generic-string-parser-extension-method">C# Generic String Parser Extension Method</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/programming/c-generic-string-parser-extension-method">C# Generic String Parser Extension Method</a>
+            </h2>
+            <span><a href="/tag/DotNet">DotNet</a> </span><span><a href="/tag/CSharp">CSharp</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Nov 29, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/microsoft/whats-coming-up-new-with-net-4-5">Whats coming up new with .Net 4.5 ?</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/microsoft/whats-coming-up-new-with-net-4-5">Whats coming up new with .Net 4.5 ?</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Sep 1, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/scottgus-asp-net-vnext-series">ScottGu's : ASP.NET vNext Series</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/scottgus-asp-net-vnext-series">ScottGu's : ASP.NET vNext Series</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Sep 1, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/googles-blogger-gets-a-refresh-new-look">Google's Blogger gets a refresh new look</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/googles-blogger-gets-a-refresh-new-look">Google's Blogger gets a refresh new look</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 7, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/asp.net/cms/razor-support-in-umbraco-4-7">Razor support in Umbraco 4.7</a>
-        </h2>
+                <a class="post-link" href="/blog/asp.net/cms/razor-support-in-umbraco-4-7">Razor support in Umbraco 4.7</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 3, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/elearning/re-usable-jquery-accordion-for-umbraco">Re-Usable jQuery Accordion for Umbraco</a>
-        </h2>
+                <a class="post-link" href="/blog/elearning/re-usable-jquery-accordion-for-umbraco">Re-Usable jQuery Accordion for Umbraco</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 25, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/cms/razor-support-in-umbraco">Razor support in Umbraco</a>
-        </h2>
+                <a class="post-link" href="/blog/cms/razor-support-in-umbraco">Razor support in Umbraco</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 21, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/cms/umbraco-razor-syntax-for-breadcrumb">Umbraco Razor Syntax for Breadcrumb</a>
-        </h2>
+                <a class="post-link" href="/blog/cms/umbraco-razor-syntax-for-breadcrumb">Umbraco Razor Syntax for Breadcrumb</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 19, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/seo/canonical-url-for-umbraco-using-razor-syntax">Canonical Url For Umbraco Using Razor Syntax</a>
-        </h2>
+                <a class="post-link" href="/blog/seo/canonical-url-for-umbraco-using-razor-syntax">Canonical Url For Umbraco Using Razor Syntax</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 18, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/asp.net/cms/asp-net-open-source-cms">ASP.Net Open Source CMS</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/asp.net/cms/asp-net-open-source-cms">ASP.Net Open Source CMS</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 3, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/seo/canonical-urls-for-umbraco">Canonical URLs for Umbraco</a>
-        </h2>
+                <a class="post-link" href="/blog/seo/canonical-urls-for-umbraco">Canonical URLs for Umbraco</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 3, 2011</span>
 
             <h2>
-          <a class="post-link" href="/blog/seo/canonical-url">Canonical URL</a>
-        </h2>
+                <a class="post-link" href="/blog/seo/canonical-url">Canonical URL</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 22, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/google/free-cdn-service-that-too-from-google">Free CDN Service – That too from Google!</a>
-        </h2>
+                <a class="post-link" href="/blog/google/free-cdn-service-that-too-from-google">Free CDN Service – That too from Google!</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 7, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/google/javascript/microsoft/using-cdn-hosted-jquery-library">Using CDN hosted jQuery Library</a>
-        </h2>
+                <a class="post-link" href="/blog/google/javascript/microsoft/using-cdn-hosted-jquery-library">Using CDN hosted jQuery Library</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 7, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/google/javascript/using-jquery-scripts-hosted-google">Using jQuery Scripts hosted @ Google</a>
-        </h2>
+                <a class="post-link" href="/blog/google/javascript/using-jquery-scripts-hosted-google">Using jQuery Scripts hosted @ Google</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 7, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/microsoft/using-jquery-scripts-hosted-microsoft">Using jQuery Scripts hosted @ Microsoft</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/microsoft/using-jquery-scripts-hosted-microsoft">Using jQuery Scripts hosted @ Microsoft</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 30, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/trim-functionality-in-javascript">Trim() functionality in JavaScript</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/trim-functionality-in-javascript">Trim() functionality in JavaScript</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 30, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/string-format-for-javascript">String.Format() for JavaScript</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/string-format-for-javascript">String.Format() for JavaScript</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">May 7, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/mind-reader-this-program-probes-your-mind-try-it">Mind Reader : This program probes your mind. Try it.</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/mind-reader-this-program-probes-your-mind-try-it">Mind Reader : This program probes your mind. Try it.</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Apr 1, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/drop-all-objects-in-sql-server">Drop All Objects in SQL Server</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/drop-all-objects-in-sql-server">Drop All Objects in SQL Server</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 11, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/asp.net/visual-studio-2010-rc-is-now-available">Visual Studio 2010 RC is now available</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/asp.net/visual-studio-2010-rc-is-now-available">Visual Studio 2010 RC is now available</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 3, 2010</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/design%20patterns/null-object-design-pattern">Null Object Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/design%20patterns/null-object-design-pattern">Null Object Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 13, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/csharp/c-news-updates">C# : News Updates</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/csharp/c-news-updates">C# : News Updates</a>
+            </h2>
+            <span><a href="/tag/CSharp">CSharp</a> </span><span><a href="/tag/TechNews">TechNews</a> </span>
         </li>
         
         <li>
             <span class="post-meta">Nov 13, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/asp.net/facebook/facebook-membership-provider">Facebook Membership Provider</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/asp.net/facebook/facebook-membership-provider">Facebook Membership Provider</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Oct 13, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/at-last-i-am-on-the-google-wave">At last I am on the Google Wave :)</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/at-last-i-am-on-the-google-wave">At last I am on the Google Wave :)</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Oct 7, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/reading-query-string-with-javascript">Reading Query String with JavaScript</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/reading-query-string-with-javascript">Reading Query String with JavaScript</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Sep 23, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/google-i-am-falling-in-love">Google - I am falling in love</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/google-i-am-falling-in-love">Google - I am falling in love</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Sep 22, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pinal-bhatt-online-my-aggregated-web-activities">Pinal Bhatt Online – My aggregated web activities</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pinal-bhatt-online-my-aggregated-web-activities">Pinal Bhatt Online – My aggregated web activities</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Sep 14, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/chat-with-authorpinal-bhatt">Chat with Author(Pinal Bhatt)</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/chat-with-authorpinal-bhatt">Chat with Author(Pinal Bhatt)</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 29, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/social-bookmarking-linksurls">Social Bookmarking : Links/Urls</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/social-bookmarking-linksurls">Social Bookmarking : Links/Urls</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 20, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1">Demo : Picasa DataProvider for Vertigo Slide Show 2.1</a>
-        </h2>
+                <a class="post-link" href="/blog/json/demo-picasa-dataprovider-for-vertigo-slide-show-2-1">Demo : Picasa DataProvider for Vertigo Slide Show 2.1</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 8, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/firefox-add-ons-plug-ins-for-web-developers">FireFox : Add-ons & Plug-ins for Web Developers</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/firefox-add-ons-plug-ins-for-web-developers">FireFox : Add-ons & Plug-ins for Web Developers</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 7, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/jquery-ui-demo-theme-slate">jQuery UI Demo : Theme - Slate</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/jquery-ui-demo-theme-slate">jQuery UI Demo : Theme - Slate</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 7, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/jquery-ui-demo-theme-blue">jQuery UI Demo : Theme - Blue</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/jquery-ui-demo-theme-blue">jQuery UI Demo : Theme - Blue</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 7, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/jquery-ui-demo-theme-simple">jQuery UI Demo : Theme - Simple</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/jquery-ui-demo-theme-simple">jQuery UI Demo : Theme - Simple</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jul 1, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/my-delicious-bookmarks">My Delicious Bookmarks</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/my-delicious-bookmarks">My Delicious Bookmarks</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 28, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/my-social-networks">My Social Networks</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/my-social-networks">My Social Networks</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 24, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/subscribe-rss-feeds">Subscribe RSS Feeds</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/subscribe-rss-feeds">Subscribe RSS Feeds</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 16, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/learning-f">Learning F#</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/learning-f">Learning F#</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 14, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pinal-bhatt-linked-in">Pinal Bhatt  @ Linked In</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pinal-bhatt-linked-in">Pinal Bhatt  @ Linked In</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 14, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/my-facebook-pinal-bhatt">My Facebook : Pinal Bhatt</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/my-facebook-pinal-bhatt">My Facebook : Pinal Bhatt</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/facebook-my-friends-carousel">Facebook - My Friends Carousel</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/facebook-my-friends-carousel">Facebook - My Friends Carousel</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 5, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/twitter-tweets-by-pinal-bhatt">Twitter Tweets by Pinal Bhatt</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/twitter-tweets-by-pinal-bhatt">Twitter Tweets by Pinal Bhatt</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">May 22, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/assessment-center-ver1-0-scope">Assessment Center (Ver1.0) Scope</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/assessment-center-ver1-0-scope">Assessment Center (Ver1.0) Scope</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 28, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/asp.net/uploading-files-to-ftp-server-using-asp-net">Uploading files to FTP server using ASP.Net</a>
-        </h2>
+                <a class="post-link" href="/blog/asp.net/uploading-files-to-ftp-server-using-asp-net">Uploading files to FTP server using ASP.Net</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 18, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pinal-bhatts-blog-learning-endeavor-for-ever">Pinal Bhatt’s Blog - Learning endeavor for ever…</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pinal-bhatts-blog-learning-endeavor-for-ever">Pinal Bhatt’s Blog - Learning endeavor for ever…</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 17, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/c-tutorial">C# Tutorial</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/c-tutorial">C# Tutorial</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 17, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/learning-pathway-for-net">Learning Pathway for .Net</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/learning-pathway-for-net">Learning Pathway for .Net</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 26, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2">Pinal Bhatt’s Blog - Learning endeavor for ever…</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pinal-bhatts-blog-learning-endeavor-for-ever-2">Pinal Bhatt’s Blog - Learning endeavor for ever…</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 25, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/my-picture-gallery">My Picture Gallery</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/my-picture-gallery">My Picture Gallery</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 24, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/what-is-minified-javascript">What is minified JavaScript?</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/what-is-minified-javascript">What is minified JavaScript?</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 23, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/using-jquery-ui-theme-in-blogger-com">Using jQuery UI Theme in Blogger.com</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/using-jquery-ui-theme-in-blogger-com">Using jQuery UI Theme in Blogger.com</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 19, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pics-of-winter-dec2008">Pics of Winter Dec’2008</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pics-of-winter-dec2008">Pics of Winter Dec’2008</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 16, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/video/youtube/downloading-videos-from-youtube-other-sources">Downloading Videos from YouTube & Other sources</a>
-        </h2>
+                <a class="post-link" href="/blog/video/youtube/downloading-videos-from-youtube-other-sources">Downloading Videos from YouTube & Other sources</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 16, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/video/changing-formats-of-audio-video-files">Changing Formats of Audio & Video files</a>
-        </h2>
+                <a class="post-link" href="/blog/video/changing-formats-of-audio-video-files">Changing Formats of Audio & Video files</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 6, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/resource-center-c">Resource Center : C#</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/resource-center-c">Resource Center : C#</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 6, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/resource-center-visual-basic">Resource Center  : Visual Basic</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/resource-center-visual-basic">Resource Center  : Visual Basic</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 6, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/resource-center-silverlight">Resource Center  : Silverlight</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/resource-center-silverlight">Resource Center  : Silverlight</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 6, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/resource-center-net-4-0">Resource Center : .Net 4.0</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/resource-center-net-4-0">Resource Center : .Net 4.0</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 6, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/hello-world-2">Hello, World!</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/hello-world-2">Hello, World!</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 5, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/resource-center-visual-studio-2010">Resource Center : Visual Studio 2010</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/resource-center-visual-studio-2010">Resource Center : Visual Studio 2010</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 30, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/tools-utilities-for-developers">Tools & Utilities for developers</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/tools-utilities-for-developers">Tools & Utilities for developers</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 30, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/fun-games">Fun & Games</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/fun-games">Fun & Games</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 29, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/silverlight-slide-show">Silverlight Slide show</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/silverlight-slide-show">Silverlight Slide show</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 22, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/extension-methods-in-c">Extension Methods in C#</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/extension-methods-in-c">Extension Methods in C#</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 22, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/regular-expressions-in-javascript">Regular Expressions in JavaScript</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/regular-expressions-in-javascript">Regular Expressions in JavaScript</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 22, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/code-for-strip-html-tags">Code for Strip Html Tags</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/code-for-strip-html-tags">Code for Strip Html Tags</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 17, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/useful-sites-for-kids">Useful sites for Kids</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/useful-sites-for-kids">Useful sites for Kids</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 17, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/www-p-bhatt-com-2nd-release">www.P-Bhatt.com : 2nd Release</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/www-p-bhatt-com-2nd-release">www.P-Bhatt.com : 2nd Release</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 17, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/cool-gadgetswidgets-for-web-pages">Cool Gadgets/Widgets for Web Pages</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/cool-gadgetswidgets-for-web-pages">Cool Gadgets/Widgets for Web Pages</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 14, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/gadgets">Gadgets</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/gadgets">Gadgets</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 10, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/contact-author-pinal-bhatt">Contact Author (Pinal Bhatt)</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/contact-author-pinal-bhatt">Contact Author (Pinal Bhatt)</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 10, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/your-comments">Your Comments</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/your-comments">Your Comments</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 10, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/recent-posts">Recent Posts</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/recent-posts">Recent Posts</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 10, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/featured-posts">Featured Posts</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/featured-posts">Featured Posts</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/tech-news">Tech-News</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/tech-news">Tech-News</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/disclaimer">Disclaimer</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/disclaimer">Disclaimer</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/umbraco-downloads">Umbraco Downloads</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/umbraco-downloads">Umbraco Downloads</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/project-center">Project Center</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/project-center">Project Center</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/learning-center">Learning Center</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/learning-center">Learning Center</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/assessment-center">Assessment Center</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/assessment-center">Assessment Center</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/sitemap">SiteMap</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/sitemap">SiteMap</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pinal-bhatt">Pinal Bhatt</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pinal-bhatt">Pinal Bhatt</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 9, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/search">Search</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/search">Search</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 7, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/pinal-bhatts-blog">Pinal Bhatt’s Blog</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/pinal-bhatts-blog">Pinal Bhatt’s Blog</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 1, 2009</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/101"></a>
-        </h2>
+                <a class="post-link" href="/blog/programming/101"></a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/abstract-class-vs-interface">Abstract Class vs Interface</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/abstract-class-vs-interface">Abstract Class vs Interface</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/rss-feeds-linq-to-xml">RSS Feeds & LINQ to XML</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/rss-feeds-linq-to-xml">RSS Feeds & LINQ to XML</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/coding-standards-practices-for-net">Coding Standards & Practices for .Net</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/coding-standards-practices-for-net">Coding Standards & Practices for .Net</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/c-vs-vb">C# vs VB</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/c-vs-vb">C# vs VB</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/design%20patterns/abstract-factory-design-pattern">Abstract Factory Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/design%20patterns/abstract-factory-design-pattern">Abstract Factory Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/design%20patterns/prototype-design-pattern">Prototype Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/design%20patterns/prototype-design-pattern">Prototype Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/design%20patterns/factory-method-design-pattern">Factory Method Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/design%20patterns/factory-method-design-pattern">Factory Method Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/design%20patterns/builder-design-pattern">Builder Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/design%20patterns/builder-design-pattern">Builder Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/design%20patterns/singleton-design-pattern">Singleton Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/design%20patterns/singleton-design-pattern">Singleton Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 16, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/design%20patterns/adapter-design-pattern">Adapter Design Pattern</a>
-        </h2>
+                <a class="post-link" href="/blog/design%20patterns/adapter-design-pattern">Adapter Design Pattern</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 15, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/personal/krishna-songs-for-my-little-sweet-heart-tanaya">Krishna Songs for my little sweet heart Tanaya</a>
-        </h2>
+                <a class="post-link" href="/blog/personal/krishna-songs-for-my-little-sweet-heart-tanaya">Krishna Songs for my little sweet heart Tanaya</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 15, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2">Krishna Songs for my little sweet heart Tanaya</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/krishna-songs-for-my-little-sweet-heart-tanaya-2">Krishna Songs for my little sweet heart Tanaya</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 15, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/abstract-class-vs-interface-2">Abstract Class vs Interface</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/abstract-class-vs-interface-2">Abstract Class vs Interface</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Nov 2, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/resource-center-firefox">Resource Center : FireFox</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/resource-center-firefox">Resource Center : FireFox</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Oct 25, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/my-links">My Links</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/my-links">My Links</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Oct 25, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/net-framework-news-update">.Net Framework : News Update</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/net-framework-news-update">.Net Framework : News Update</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jun 6, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/world-clock">World Clock</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/world-clock">World Clock</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 17, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/design-patterns">Design Patterns</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/design-patterns">Design Patterns</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 9, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/c-string-utility-code-snippets">C# : String utility code snippets</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/c-string-utility-code-snippets">C# : String utility code snippets</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 7, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/generic-methods-to-read-value-from-datareader">Generic methods to read value from DataReader</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/generic-methods-to-read-value-from-datareader">Generic methods to read value from DataReader</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Mar 7, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/abcs-of-c">ABC's Of C#</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/abcs-of-c">ABC's Of C#</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 29, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/introduction-to-the-c-programming-language">Introduction to the C# Programming Language</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/introduction-to-the-c-programming-language">Introduction to the C# Programming Language</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 20, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/asp.net/my-projects">My Projects</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/asp.net/my-projects">My Projects</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 20, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/dotnet/c-enum-tricks-tips">C# : Enum – Tricks & Tips</a>
-        </h2>
+                <a class="post-link" href="/blog/dotnet/c-enum-tricks-tips">C# : Enum – Tricks & Tips</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 12, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/vb-news-updates">VB : News Updates</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/vb-news-updates">VB : News Updates</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 8, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/comparing-contrasting-abstract-class-vs-interface">Comparing & Contrasting : Abstract Class Vs Interface</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/comparing-contrasting-abstract-class-vs-interface">Comparing & Contrasting : Abstract Class Vs Interface</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Feb 8, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/comparing-contrasting-c-vs-vb">Comparing & Contrasting : C# Vs VB</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/comparing-contrasting-c-vs-vb">Comparing & Contrasting : C# Vs VB</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Jan 1, 2008</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/silverlight-news-update">Silverlight : News Update</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/silverlight-news-update">Silverlight : News Update</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 27, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/search-2">Search</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/search-2">Search</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 19, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/common-javascript-utilities">Common JavaScript Utilities</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/common-javascript-utilities">Common JavaScript Utilities</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 14, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/net-learning-curve">.Net Learning Curve</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/net-learning-curve">.Net Learning Curve</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 14, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/programming/standards-practices-for-software-development-net">Standards & Practices for Software Development (.Net)</a>
-        </h2>
+                <a class="post-link" href="/blog/programming/standards-practices-for-software-development-net">Standards & Practices for Software Development (.Net)</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 13, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/archive/my-delicious-bookmarks-2">My Delicious Bookmarks</a>
-        </h2>
+                <a class="post-link" href="/blog/archive/my-delicious-bookmarks-2">My Delicious Bookmarks</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 13, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/javascript/javascript-utilities">JavaScript Utilities</a>
-        </h2>
+                <a class="post-link" href="/blog/javascript/javascript-utilities">JavaScript Utilities</a>
+            </h2>
+            
         </li>
         
         <li>
             <span class="post-meta">Dec 13, 2007</span>
 
             <h2>
-          <a class="post-link" href="/blog/archive/blank-post">Blank Post</a>
-        </h2>
+                <a class="post-link" href="/blog/archive/blank-post">Blank Post</a>
+            </h2>
+            
         </li>
         
     </ul>
 
     <p class="rss-subscribe">subscribe <a href=" /feed.xml ">via RSS</a></p>
 
-</div>
-                </div>
-            </div>
+</div>-->
 
-            <nav>
-                <ul class="pager">
-                    <li><a href="#">Previous</a></li>
-                    <li><a href="#">Next</a></li>
-                </ul>
-            </nav>
-
-        </div><!-- /.blog-main -->
-
-        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
-            <div class="sidebar-module sidebar-module-inset">
-                <h4>About</h4>
-                <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
-                    fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-            </div>
-            <div class="sidebar-module">
-                <div class="staff">
-
-                    <p class="ctxt"><b>Pinal Bhatt</b> <br/> Software Engineer</p>
-
-                    <div>
-                    <img class="footer-logo img-responsive img-rounded"
-                         src="/assets/images/logo/PBDesk/PBDesk.png" alt="PBDesk Logo">
                     </div>
-                    <p class="ctxt">always on learning ramp</p>
-                    <div class="ctxt social"><a target="_blank" class="twitter" href="http://twitter.com/PBDesk"><i
-                            class="fa fa-twitter"></i></a> <a target="_blank" class="facebook"
-                                                              href="https://www.facebook.com/Go.PBDesk"><i
-                            class="fa fa-facebook"></i></a> <a target="_blank" class="google-plus"
-                                                               href="https://plus.google.com/+Pbdesk"><i
-                            class="fa fa-google-plus"></i></a> <a target="_blank" class="linkedin"
-                                                                  href="http://www.linkedin.com/in/pinalbhatt"><i
-                            class="fa fa-linkedin"></i></a> <a target="_blank" class="pinterest"
-                                                               href="https://github.com/PBDesk"><i
-                            class="fa fa-github"></i></a></div>
                 </div>
             </div>
-            <div class="sidebar-module">
-                <h4>Archives</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">March 2014</a></li>
-                    <li><a href="#">February 2014</a></li>
-                    <li><a href="#">January 2014</a></li>
-                    <li><a href="#">December 2013</a></li>
-                    <li><a href="#">November 2013</a></li>
-                    <li><a href="#">October 2013</a></li>
-                    <li><a href="#">September 2013</a></li>
-                    <li><a href="#">August 2013</a></li>
-                    <li><a href="#">July 2013</a></li>
-                    <li><a href="#">June 2013</a></li>
-                    <li><a href="#">May 2013</a></li>
-                    <li><a href="#">April 2013</a></li>
-                </ol>
-            </div>
-            <div class="sidebar-module">
-                <a class="twitter-timeline" href="https://twitter.com/pbdesk" data-widget-id="695708274948235264">Tweets by @pbdesk</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </div>
-        </div><!-- /.blog-sidebar -->
-
-    </div><!-- /.row -->
-
-</div><!-- /.container -->
-  
-   
-    <div class="row">
-    <div class="container">
-        <div class="AdPlace hidden-xs hidden-sm">
-            <!-- Ad 728x90 -->
+        </div>
+        <div class="section-wrapper z-depth-1 wow fadeIn" data-wow-delay="0.1s">
+    <div class="col s12 m12 l10 website right" >
+        <div class="row">
+            <div class="col s12 m12 l12" style="max-height: 300px">
+                <!-- PBDesk2016-Responsive1 -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:block"
      data-ad-client="ca-pub-4686631795727964"
-     data-ad-slot="7078321947"></ins>
+     data-ad-slot="5279982745"
+     data-ad-format="auto"></ins>
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-        </div>
-    </div>
-
-</div>
-<div class="foot">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="padd">
-                    <div class="widget"><h3>Learning endeavor for ever…</h3>
-                        <p class="jtxt">Welcome to My Blog! On this site you'll find interesting posts,
-                            articles, tutorials, news updates and links on Microsoft.Net, ASP.NET, MVC, WebAPIs, C#,
-                            Windows8, Metro Apps, WCF, XAML, JavaScript, jQuery, AngularJS, NodeJS, Social Media,
-                            Mobiles, Science &amp; Technology and other random thoughts and opinions.</p>
-                        <p class="pull-right"><i>- Pinal Bhatt</i></p>
-
-                    </div>
-                </div>
             </div>
-            <div class="col-md-4">
-                <div class="padd">
-                    <h3>About Me</h3>
-                    <div class="staff">
-                        <div class="">
-                            <a href="#">
-                            <img class="footer-logo img-responsive img-rounded"
-                                                 src="/assets/images/logo/PBDesk/PBDesk.png" alt="PBDesk Logo">
-                            </a>
-                        </div>
-                        <p class="ctxt" style="padding: 10px; font-style: italic">software engineer<br/> and<br/> always on learning ramp</p>
 
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="padd">
-                    <div class="widget"><h3>My Sites & Apps</h3>
-                        <ul style="list-style: none;">
-                            <li><a href="/"><i class="fa fa-home"></i> Home</a></li>
-                            <li><a href="/feed.xml"><i class="fa fa-rss"></i> RSS</a></li>
-                            <li><a href="/SiteMap" target="_blank"><i class="fa fa-sitemap"></i> SiteMap</a></li>
-                            <li><a href="/Disclaimer"><i class="fa fa-warning"></i> Disclaimer</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
-<footer>
-    <div class="container">
+        <div class="section-wrapper z-depth-1 wow fadeIn" data-wow-delay="0.1s">
+    <div class="col s12 m12 l10 website right" >
         <div class="row">
-            <div class="col-md-12">
+            <div class="col s12 m12 l12">
+                <span><a class="a-c" href="/">Home</a></span> | <span><a href="">SiteMap</a></span> | <span><a href="">Disclaimer</a></span>
                 <div class="fpadd">Pinal Bhatt's Blog © 2016 | PBDesk.com</div>
                 <div class="fpadd">Concept Design, Develop & Perceived by Pinal Bhatt.</div>
             </div>
+
         </div>
-        <div class="clearfix"></div>
     </div>
-</footer>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+</div>
+    </div><!-- end row -->
+</section><!-- end section -->
+    </div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src='//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
+<script src="assets/material/js/wow.min.js"></script>
+<script src="assets/material/js/masonry.pkgd.js"></script>
+<script src="assets/material/js/validator.min.js"></script>
+<script src="assets/material/js/init.js"></script>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  </body>
-
+</body>
 </html>
